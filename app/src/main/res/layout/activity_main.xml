@@ -13,7 +13,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="167dp"
-        android:layout_marginTop="258dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="364dp"
         android:text="@string/boton1" />
 </RelativeLayout>
