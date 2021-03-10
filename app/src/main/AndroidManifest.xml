@@ -9,7 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HelpPets">
-        <activity android:name=".MainActivity"
+        <activity android:name=".dietas"></activity>
+        <activity android:name=".registromascotas" />
+        <activity android:name=".vacunas" />
+        <activity android:name=".alertaayuda" />
+        <activity android:name=".hamsters" />
+        <activity android:name=".peces" />
+        <activity android:name=".aves" />
+        <activity android:name=".gatos" />
+        <activity android:name=".perros" />
+        <activity android:name=".mascotas" />
+        <activity
+            android:name=".MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
