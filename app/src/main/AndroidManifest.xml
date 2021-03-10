@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HelpPets">
-        <activity android:name=".dietas"></activity>
+        <activity android:name=".dietasperros"></activity>
+        <activity android:name=".dietas" />
         <activity android:name=".registromascotas" />
         <activity android:name=".vacunas" />
         <activity android:name=".alertaayuda" />
