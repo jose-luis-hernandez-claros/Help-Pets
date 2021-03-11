@@ -1,4 +1,18 @@
 <resources>
-    <string name="app_name">Help-Pets</string>
+    <string name="app_name">HELP-PETS</string>
     <string name="botonesprincipales">botonesprincipales</string>
+    <string name="mascotas">Enfermedades De Mascotas</string>
+    <string name="ubicacion">Ubicacion Veterinarias</string>
+    <string name="vacunas">Registro De Vacunas</string>
+    <string name="pedirayuda">Pedir Ayuda</string>
+    <string name="registromascotas">Registro De Mascotas</string>
+    <string name="dietas">Dietas Recomendadas</string>
+    <string name="helpets">HELP-PETS</string>
+    <string name="enfermedades">ENFERMEDADES</string>
+    <string name="perros">Perros</string>
+    <string name="gatos">Gatos</string>
+    <string name="aves">Aves</string>
+    <string name="peces">Peces</string>
+    <string name="hamnsters">Hamnters</string>
+
 </resources>
