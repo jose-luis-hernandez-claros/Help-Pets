@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
     public void mascotas(View view){
         Intent mascotas = new Intent(this, com.example.help_pets.mascotas.class);
         startActivity(mascotas);
-
+    }
+    public void maps(View view){
+        Intent maps = new Intent(this, ubicacionveterinarias.class);
+        startActivity(maps);
     }
 }
