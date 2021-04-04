@@ -16,13 +16,23 @@
     <string name="hamnsters">Hamnters</string>
 
 
+
+
+    <!--Enfermedades Perros-->
     <string name="enfperros">Enfermedades De Perros</string>
     <string name="pruebaenf">Google Noticias es un agregador y buscador de noticias
         automatizado que rastrea de forma constante la información de los principales
         medios de comunicación en línea. El sitio web de Google News, elaborado por Google</string>
     <string name="pruebaenfaaaa">facebook Noticias es un agregador y buscador de noticias
-        automatizado que rastrea de forma constante la información de los principales
-        medios de comunicación en línea. El sitio web de Google News, elaborado por Google</string>
+        automatizado que rastrea de forma constante la información de los principales</string>
+
+
+    <!--Enfermedades Gatos-->
+    <!--Enfermedades Aves-->
+    <!--Enfermedades Peces-->
+    <!--Enfermedades Hamsters-->
+
+
     <string name="title_activity_ubicacionveterinarias">Map</string>
 
 </resources>
