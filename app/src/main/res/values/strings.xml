@@ -7,6 +7,7 @@
     <string name="pedirayuda">Pedir Ayuda</string>
     <string name="registromascotas">Registro De Mascotas</string>
     <string name="dietas">Dietas Recomendadas</string>
+    <string name="dietas2">DIETAS RECOMENDADAS</string>
     <string name="helpets">HELP-PETS</string>
     <string name="enfermedades">ENFERMEDADES</string>
     <string name="perros">Perros</string>
@@ -20,11 +21,12 @@
 
     <!--Enfermedades Perros-->
     <string name="enfperros">Enfermedades De Perros</string>
-    <string name="pruebaenf">Google Noticias es un agregador y buscador de noticias
+    <string name="p1">Google Noticias es un agregador y buscador de noticias
         automatizado que rastrea de forma constante la información de los principales
-        medios de comunicación en línea. El sitio web de Google News, elaborado por Google</string>
-    <string name="pruebaenfaaaa">facebook Noticias es un agregador y buscador de noticias
-        automatizado que rastrea de forma constante la información de los principales</string>
+      </string>
+    <string name="p2">facebook Noticias es un agregador y buscador de noticias
+        automatizado que rastrea de forma constante la información de los princiGoogle Noticias es un agregador y buscador de noticias
+        </string>
 
 
     <!--Enfermedades Gatos-->

@@ -20,8 +20,8 @@ public class perros extends AppCompatActivity {
 
         ver1 = (Button)findViewById(R.id.botonver);
         ver2 = (Button)findViewById(R.id.botonver2);
-        nover = (EditText) findViewById(R.id.botonnover);
-        nover2 = (EditText) findViewById(R.id.botonnover2);
+        //nover = (EditText) findViewById(R.id.botonnover);
+        //nover2 = (EditText) findViewById(R.id.botonnover2);
     }
 
 
