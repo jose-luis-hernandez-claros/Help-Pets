@@ -47,4 +47,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(rvacunas);
     }
 
+    //Intent para abrir pestaña de alerta y ayuda
+    public void alertaayuda(View view){
+        Intent Aayuda = new Intent(this,com.example.help_pets.alertaayuda.class);
+        startActivity(Aayuda);
+    }
+
 }

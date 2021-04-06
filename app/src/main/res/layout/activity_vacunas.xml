@@ -48,6 +48,8 @@
             android:id="@+id/idtipomascota"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
             android:text="@string/tipomascota2"
             android:textAlignment="viewStart"
             android:textColor="#5C4545"
@@ -62,6 +64,8 @@
             android:id="@+id/sexomascota2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
             android:text="@string/sexomascota2"
             android:textAlignment="viewStart"
             android:textAllCaps="false"
@@ -125,14 +129,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="Button" />
+                android:fontFamily="casual"
+                android:text="@string/agregarv" />
 
             <Button
                 android:id="@+id/button11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="Button" />
+                android:fontFamily="casual"
+                android:text="@string/modificarv" />
         </TableRow>
 
         <TableRow
@@ -144,14 +150,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="Button" />
+                android:fontFamily="casual"
+                android:text="@string/eliminarv" />
 
             <Button
                 android:id="@+id/button13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
-                android:text="Button" />
+                android:fontFamily="casual"
+                android:text="@string/buscarv" />
         </TableRow>
 
     </TableLayout>

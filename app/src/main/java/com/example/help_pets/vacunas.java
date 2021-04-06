@@ -22,14 +22,14 @@ public class vacunas extends AppCompatActivity {
 
         //Tipo de mascota
 
-        String [] mascotas = {"Seleccionar...","Perro","Gato","Ave","Pez","Hamnster"};
+        String [] mascotas = {"Perro","Gato","Ave","Pez","Hamnster"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, mascotas);
         tipomascota.setAdapter(adapter);
 
 
         //sexo de la mascota
-        String [] sexomascota1 = {"Seleccionar...","Macho","Hembra"};
+        String [] sexomascota1 = {"Macho","Hembra"};
         ArrayAdapter <String> adapter2 = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, sexomascota1);
         sexomascota.setAdapter(adapter2);
     }

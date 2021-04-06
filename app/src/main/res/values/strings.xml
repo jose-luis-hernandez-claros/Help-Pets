@@ -18,6 +18,7 @@
     <string name="aves">Aves</string>
     <string name="peces">Peces</string>
     <string name="hamnsters">Hamnters</string>
+    <string name="pedirayuda2">PEDIR AYUDA</string>
 
 
 
@@ -46,6 +47,10 @@
     <string name="sexomascota"> Sexo De La Mascota</string>
     <string name="fechanacimiento">Fecha De Nacimiento</string>
     <string name="razamascota">Raza De La Mascota</string>
+    <string name="agregarma">AGREGAR</string>
+    <string name="modificarma">MODIFICAR</string>
+    <string name="eliminarma">ELIMINAR</string>
+    <string name="buscarma">BUSCAR</string>
 
     <!--Registro vacunas-->
     <string name="registrovacunas">REGISTRO DE VACUNAS</string>
@@ -55,6 +60,15 @@
     <string name="fechavacunacion">Fecha Vacunacion</string>
     <string name="sexomascota2">Sexo De La Mascota</string>
     <string name="fechanacimiento2">Fecha De Nacimiento</string>
+    <string name="agregarv">AGREGAR</string>
+    <string name="modificarv">MODIFICAR</string>
+    <string name="eliminarv">ELIMINAR</string>
+    <string name="buscarv">BUSCAR</string>
+
+
+    <!--Pedir ayuda-->
+    <string name="wtp">WHATSAPP</string>
+    <string name="mess">MESSENGER</string>
 
 
     <string name="title_activity_ubicacionveterinarias">Map</string>
