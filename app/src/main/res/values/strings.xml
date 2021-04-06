@@ -1,4 +1,7 @@
 <resources>
+
+    <string name="descripcioncontenidos"></string>
+
     <string name="app_name">HELP-PETS</string>
     <string name="botonesprincipales">botonesprincipales</string>
     <string name="mascotas">Enfermedades De Mascotas</string>
@@ -39,16 +42,16 @@
     <!--Registro Mascotas-->
     <string name="registromascotas2">REGISTRO DE MASCOTAS</string>
     <string name="nombremascota">Nombre De La Mascota</string>
-    <string name="tipomascota">Tipo De Mascota</string>
-    <string name="sexomascota">Sexo De La Mascota</string>
+    <string name="tipomascota"> Tipo De Mascota</string>
+    <string name="sexomascota"> Sexo De La Mascota</string>
     <string name="fechanacimiento">Fecha De Nacimiento</string>
     <string name="razamascota">Raza De La Mascota</string>
 
     <!--Registro vacunas-->
     <string name="registrovacunas">REGISTRO DE VACUNAS</string>
     <string name="nombremascota2">Nombre De La Mascota</string>
-    <string name="tipomascota2">Tipo De Mascota</string>
-    <string name="nombrevacuna">Nombre De La Vacuna</string>
+    <string name="tipomascota2"> Tipo De Mascota</string>
+    <string name="nombrevacuna"> Nombre De La Vacuna</string>
     <string name="fechavacunacion">Fecha Vacunacion</string>
     <string name="sexomascota2">Sexo De La Mascota</string>
     <string name="fechanacimiento2">Fecha De Nacimiento</string>
