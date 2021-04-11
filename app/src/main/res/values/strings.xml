@@ -42,6 +42,7 @@
 
     <!--Registro Mascotas-->
     <string name="registromascotas2">REGISTRO DE MASCOTAS</string>
+    <string name="codigomascota">Codigo De Identificación</string>
     <string name="nombremascota">Nombre De La Mascota</string>
     <string name="tipomascota"> Tipo De Mascota</string>
     <string name="sexomascota"> Sexo De La Mascota</string>

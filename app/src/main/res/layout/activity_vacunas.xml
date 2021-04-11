@@ -9,11 +9,15 @@
     tools:context=".vacunas">
 
     <LinearLayout
-        android:layout_width="367dp"
-        android:layout_height="match_parent"
+        android:layout_width="368dp"
+        android:layout_height="528dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="21dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="73dp"
         android:background="#CFB9B9"
         android:orientation="vertical">
 
@@ -33,6 +37,18 @@
             android:id="@+id/textView23"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/ididentificacionvacuna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/codigomascota"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="#633838"
+            android:textColorLink="#FFFFFF" />
 
         <EditText
             android:id="@+id/idnombremascota2"
@@ -83,7 +99,7 @@
             android:ems="10"
             android:hint="@string/fechanacimiento2"
             android:importantForAutofill="no"
-            android:inputType="textPersonName"
+            android:inputType="date"
             android:textColorHint="#5C4545" />
 
         <EditText
@@ -97,28 +113,26 @@
             android:textColorHint="#5C4545" />
 
         <EditText
-            android:id="@+id/idvacunacion2"
+            android:id="@+id/idfechavacunacion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/fechavacunacion"
             android:importantForAutofill="no"
-            android:inputType="textPersonName"
+            android:inputType="date"
             android:textColorHint="#5C4545" />
 
     </LinearLayout>
 
     <TableLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
+        android:layout_height="114dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="67dp"
         android:layout_marginTop="73dp"
         android:layout_marginEnd="67dp"
-        android:layout_marginBottom="41dp">
+        android:layout_marginBottom="4dp">
 
         <TableRow
             android:layout_width="match_parent"
@@ -130,6 +144,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
                 android:fontFamily="casual"
+                android:onClick="registrar"
                 android:text="@string/agregarv" />
 
             <Button
@@ -159,8 +174,10 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
                 android:fontFamily="casual"
+                android:onClick="Buscar"
                 android:text="@string/buscarv" />
         </TableRow>
 
     </TableLayout>
+
 </RelativeLayout>

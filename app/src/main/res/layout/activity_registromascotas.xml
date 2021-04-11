@@ -7,156 +7,65 @@
     android:background="#CFB9B9"
     tools:context=".registromascotas">
 
-    <LinearLayout
-        android:layout_width="355dp"
-        android:layout_height="415dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginBottom="174dp"
-        android:background="#CFB9B9"
-        android:orientation="vertical">
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="39dp"
-            android:fontFamily="cursive"
-            android:text="@string/registromascotas2"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-            android:textSize="50sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView21"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <EditText
-            android:id="@+id/idnombremascota"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/nombremascota"
-            android:importantForAutofill="no"
-            android:inputType="textPersonName"
-            android:textColorHighlight="#FFFFFF"
-            android:textColorHint="#633838"
-            android:textColorLink="#FFFFFF" />
-
-        <TextView
-            android:id="@+id/textView17"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingStart="4dp"
-            android:paddingEnd="4dp"
-            android:text="@string/tipomascota"
-            android:textAlignment="viewStart"
-            android:textColor="#5C4545"
-            android:textColorLink="#FFFFFF" />
-
-        <Spinner
-            android:id="@+id/spinnertipomascota1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <TextView
-            android:id="@+id/textView20"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingStart="4dp"
-            android:paddingEnd="4dp"
-            android:text="@string/sexomascota"
-            android:textAlignment="textStart"
-            android:textColor="#5C4545"
-            android:textColorHint="#5C4545" />
-
-        <Spinner
-            android:id="@+id/spinnersexomascota1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-        <EditText
-            android:id="@+id/idfechanacimiento"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/fechanacimiento"
-            android:importantForAutofill="no"
-            android:inputType="textPersonName"
-            android:textColorHint="#5C4545" />
-
-        <EditText
-            android:id="@+id/idrazamascota"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="@string/razamascota"
-            android:importantForAutofill="no"
-            android:inputType="textPersonName"
-            android:textColorHint="#5C4545" />
-
-    </LinearLayout>
-
-    <TableLayout
+    <EditText
+        android:id="@+id/codigomascota"
         android:layout_width="wrap_content"
-        android:layout_height="111dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:ems="10"
+        android:hint="@string/codigomascota"
+        android:inputType="number"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/nombremascota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="204dp"
+        android:ems="10"
+        android:hint="@string/nombremascota"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="67dp"
-        android:layout_marginTop="73dp"
-        android:layout_marginEnd="67dp"
-        android:layout_marginBottom="41dp">
+        android:layout_marginBottom="89dp"
+        android:onClick="consultar"
+        android:text="@string/buscarma" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="173dp"
+        android:onClick="registrar"
+        android:text="@string/agregarma" />
 
-            <Button
-                android:id="@+id/button10"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:fontFamily="casual"
-                android:text="@string/agregarv" />
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date" />
 
-            <Button
-                android:id="@+id/button11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:fontFamily="casual"
-                android:text="@string/modificarma" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <Button
-                android:id="@+id/button12"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:fontFamily="casual"
-                android:text="@string/eliminarma" />
-
-            <Button
-                android:id="@+id/button13"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:fontFamily="casual"
-                android:text="@string/buscarma" />
-        </TableRow>
-
-    </TableLayout>
-
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="233dp"
+        android:ems="10"
+        android:hint="ss"
+        android:inputType="time" />
 </RelativeLayout>
