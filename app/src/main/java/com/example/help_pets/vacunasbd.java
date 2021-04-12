@@ -14,7 +14,7 @@ public class vacunasbd extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase BaseDeDatosvacunas) {
-        BaseDeDatosvacunas.execSQL("create table vacunas(codigo int primary key, nombrem text, fechan text, nombrev text, fechav text)");
+        BaseDeDatosvacunas.execSQL("create table vacunas(codigo int primary key, nombrem text, tipom text, sexom text, fechan text, nombrev text, fechav text)");
     }
 
     @Override

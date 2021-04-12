@@ -14,8 +14,7 @@ import android.widget.Toast;
 
 public class vacunas extends AppCompatActivity {
 
-    private Spinner tipomascota;
-    private Spinner sexomascota;
+    private Spinner tipomascota,sexomascota;
     private EditText etcodigo, etnombrem, etfechan, etnombrev, etfechav;
 
     @Override
@@ -35,14 +34,14 @@ public class vacunas extends AppCompatActivity {
 
         //Tipo de mascota
 
-        String [] mascotas = {"Perro","Gato","Ave","Pez","Hamnster"};
+        String [] mascotas = {"","Perro","Gato","Ave","Pez","Hamnster"};
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, mascotas);
         tipomascota.setAdapter(adapter);
 
 
         //sexo de la mascota
-        String [] sexomascota1 = {"Macho","Hembra"};
+        String [] sexomascota1 = {"","Macho","Hembra"};
         ArrayAdapter <String> adapter2 = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, sexomascota1);
         sexomascota.setAdapter(adapter2);
     }
@@ -55,14 +54,18 @@ public class vacunas extends AppCompatActivity {
 
         String Scodigo = etcodigo.getText().toString();
         String Snombrem = etnombrem.getText().toString();
+     /*   String Stipom = tipomascota.toString();
+        String Ssexom = sexomascota.toString();*/
         String Sfechan = etfechan.getText().toString();
         String Snombrev = etnombrev.getText().toString();
         String Sfechav = etfechav.getText().toString();
 
-        if(!Scodigo.isEmpty() && !Snombrem.isEmpty() && !Sfechan.isEmpty() && !Snombrev.isEmpty() && !Sfechav.isEmpty()){
+        if(!Scodigo.isEmpty() && !Snombrem.isEmpty() /*&& !Stipom.isEmpty() && !Ssexom.isEmpty()*/ && !Sfechan.isEmpty() && !Snombrev.isEmpty() && !Sfechav.isEmpty()){
             ContentValues registro = new ContentValues(); //contenido base de datos
             registro.put("codigo",Scodigo); //guardar codigo
             registro.put("nombrem",Snombrem); //guardar nombre mascota
+            /*registro.put("tipom",Stipom);
+            registro.put("sexom",Ssexom);*/
             registro.put("fechan",Sfechan); //guardar fecha nacimiento
             registro.put("nombrev",Snombrev); //guardar nombre vacuna
             registro.put("fechav",Sfechav); //guardar fecha vacunacion
@@ -106,7 +109,79 @@ public class vacunas extends AppCompatActivity {
                 db.close();
             }
         }else{
-            Toast.makeText(this, "Debes introducir el codigo del articulo", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Debes introducir un codigo de identificación.", Toast.LENGTH_SHORT).show();
+        }
+
+    }
+
+    //Metodo para eliminar
+
+    public void eliminar(View view){
+        vacunasbd admin = new vacunasbd(this,"vacunaspruebaaaa",null,1);
+        SQLiteDatabase db = admin.getWritableDatabase(); //metodo abrir db lectura y escritura
+        String codigo = etcodigo.getText().toString();
+
+        if(!codigo.isEmpty()){
+            int cantidad = db.delete("vacunas","codigo=" + codigo,null);
+            db.close();
+            etcodigo.setText("");
+            etnombrem.setText("");
+            etfechan.setText("");
+            etnombrev.setText("");
+            etfechav.setText("");
+
+            if(cantidad==1){
+                Toast.makeText(this, "Datos de vacuna eliminados exitosamente", Toast.LENGTH_SHORT).show();
+            }else{
+                Toast.makeText(this, "No se encontrarón datos", Toast.LENGTH_SHORT).show();
+            }
+        }else {
+            Toast.makeText(this, "Debes introducir un codigo de identificación", Toast.LENGTH_SHORT).show();
+        }
+
+
+    }
+
+    //Metodo para modificar
+
+    public void modificar(View view){
+        vacunasbd admin = new vacunasbd(this,"vacunaspruebaaaa",null,1);
+        SQLiteDatabase db = admin.getWritableDatabase();
+
+        String Scodigo = etcodigo.getText().toString();
+        String Snombrem = etnombrem.getText().toString();
+     /*   String Stipom = tipomascota.toString();
+        String Ssexom = sexomascota.toString();*/
+        String Sfechan = etfechan.getText().toString();
+        String Snombrev = etnombrev.getText().toString();
+        String Sfechav = etfechav.getText().toString();
+
+        if(!Scodigo.isEmpty() && !Snombrem.isEmpty() /*&& !Stipom.isEmpty() && !Ssexom.isEmpty()*/ && !Sfechan.isEmpty() && !Snombrev.isEmpty() && !Sfechav.isEmpty()){
+            ContentValues registro = new ContentValues(); //contenido de los campos
+            registro.put("codigo",Scodigo); //guardar codigo
+            registro.put("nombrem",Snombrem); //guardar nombre mascota
+            /*registro.put("tipom",Stipom);
+            registro.put("sexom",Ssexom);*/
+            registro.put("fechan",Sfechan); //guardar fecha nacimiento
+            registro.put("nombrev",Snombrev); //guardar nombre vacuna
+            registro.put("fechav",Sfechav); //guardar fecha vacunacion
+
+            int cantidad = db.update("vacunas",registro,"codigo=" + Scodigo, null);
+            db.close();
+            etcodigo.setText("");
+            etnombrem.setText("");
+            etfechan.setText("");
+            etnombrev.setText("");
+            etfechav.setText("");
+
+            if(cantidad == 1){
+                Toast.makeText(this, "Datos de la vacuna modificados correctamente", Toast.LENGTH_SHORT).show();
+            }else{
+                Toast.makeText(this, "No se encontrarón datos", Toast.LENGTH_SHORT).show();
+            }
+
+        }else{
+            Toast.makeText(this, "Debes llenar todos los campos", Toast.LENGTH_SHORT).show();
         }
 
     }

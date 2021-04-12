@@ -44,8 +44,8 @@
     <string name="registromascotas2">REGISTRO DE MASCOTAS</string>
     <string name="codigomascota">Codigo De Identificación</string>
     <string name="nombremascota">Nombre De La Mascota</string>
-    <string name="tipomascota"> Tipo De Mascota</string>
-    <string name="sexomascota"> Sexo De La Mascota</string>
+    <string name="tipomascota">Seleccione El Tipo De Mascota</string>
+    <string name="sexomascota">Seleccione El Sexo De La Mascota</string>
     <string name="fechanacimiento">Fecha De Nacimiento</string>
     <string name="razamascota">Raza De La Mascota</string>
     <string name="agregarma">AGREGAR</string>
@@ -56,10 +56,10 @@
     <!--Registro vacunas-->
     <string name="registrovacunas">REGISTRO DE VACUNAS</string>
     <string name="nombremascota2">Nombre De La Mascota</string>
-    <string name="tipomascota2"> Tipo De Mascota</string>
+    <string name="tipomascota2">Seleccione El Tipo De Mascota</string>
     <string name="nombrevacuna"> Nombre De La Vacuna</string>
     <string name="fechavacunacion">Fecha Vacunacion</string>
-    <string name="sexomascota2">Sexo De La Mascota</string>
+    <string name="sexomascota2">Seleccione El Sexo De La Mascota</string>
     <string name="fechanacimiento2">Fecha De Nacimiento</string>
     <string name="agregarv">AGREGAR</string>
     <string name="modificarv">MODIFICAR</string>

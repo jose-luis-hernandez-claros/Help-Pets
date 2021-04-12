@@ -14,8 +14,8 @@ public class registromascotasbd extends SQLiteOpenHelper {
     }
 
     @Override
-    public void onCreate(SQLiteDatabase BaseDeDatos2) {
-        BaseDeDatos2.execSQL("create table mascotas(codigo int primary key, nombre text)");
+    public void onCreate(SQLiteDatabase BaseDeDatos3) {
+        BaseDeDatos3.execSQL("create table mascotas(codigo int primary key, nombrem text, tipo text, sexo text, fechan text, razam text)");
     }
 
     @Override
