@@ -43,6 +43,7 @@
     <string name="descripcion">DESCRIPCION</string>
     <string name="sintomas">SINTOMAS</string>
     <string name="cuidado">TRATAMIENTO</string>
+    <string name="representacion">REPRESENTACION</string>
 
     <!--Enfermedades Gatos-->
     <!--Enfermedades Aves-->

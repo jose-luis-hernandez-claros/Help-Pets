@@ -8,14 +8,16 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 public class perros extends AppCompatActivity {
 
 
-    private TextView tv1,tv2,tv3,descripcion,sintomas,cuidado;
+    private TextView tv1,tv2,tv3,descripcion,sintomas,cuidado,representacion;
     private  Button ep1,ep2;
+    private ImageView parviovirus;
 /*
 
     private  String enfermedades [] = {"Parviovirus","Moquillo","Artrosis","Otitis","Leishmaniosis","Gusano del corazon","Tos de las perreras","Problemas urinarios","Problemas digestivos",
@@ -37,7 +39,8 @@ public class perros extends AppCompatActivity {
         descripcion = (TextView)findViewById(R.id.Descripcion);
         sintomas = (TextView)findViewById(R.id.Sintomas);
         cuidado = (TextView)findViewById(R.id.Cuidado);
-
+        representacion = (TextView)findViewById(R.id.representacion);
+        parviovirus = (ImageView)findViewById(R.id.parviovirus);
 
        /* ver1 = (Button)findViewById(R.id.botonver);
         ver2 = (Button)findViewById(R.id.botonver2);*/
@@ -70,6 +73,8 @@ public class perros extends AppCompatActivity {
         descripcion.setVisibility(View.VISIBLE);
         sintomas.setVisibility(View.VISIBLE);
         cuidado.setVisibility(View.VISIBLE);
+        representacion.setVisibility(View.VISIBLE);
+        parviovirus.setVisibility(View.VISIBLE);
         tv1.setText("Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
                 "ante cualquier sospecha de tener esta enfermedad es imprescindible acudir de forma inmediata al centro veterinario mas cercano." +
                 "Algunas razas de perro como el Rottweiler son mas propensos a contraer esta enfermedad.\n" +
@@ -88,7 +93,12 @@ public class perros extends AppCompatActivity {
                 "Dolor a la palpación de abdomen.\n" +
                 "En casos más graves, deshidratación (más o menos severa, ya que el virus afecta al tracto intestinal) y muerte del paciente.");
 
-        tv3.setText("");
+        tv3.setText("No existe un tratamiento 100% efectivo del parviovirus, sin embargo, existen pasos a seguir para poder combatirla y tener mejor resultados o en su caso, eliminar totalmente el virus.\n" +
+                "\n" +
+                "Rehidratación. Normalmente se recomienda una administración de suero por vía intravenosa.\n" +
+                "Transfusiones de sangre. Esto por la perdida de sangre debido a las diarreas. Una vez estabilizado, se prosigue con cuidados y monitoreo.\n" +
+                "Antibióticos.\n" +
+                "Recuerda que los tratamientos deben ser administrados por un veterinario profesional de cabecera o de confianza.");
     }
     public void ep2(View view){
         descripcion.setVisibility(View.VISIBLE);
