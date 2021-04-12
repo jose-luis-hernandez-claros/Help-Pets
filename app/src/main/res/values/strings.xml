@@ -38,34 +38,11 @@
     <string name="ep11">Hepatitis</string>
     <string name="ep12">Rabia</string>
 
-    <string name="p1">Google Noticias es un agregador y buscador de noticias
-        automatizado que rastrea de formadasdddddddddddddd constante la información de los principales
-        sdddddddddddddd constante la información de los principalessdddddddddddddd constante la información de los principales
-        sdddddddddddddd constante la información de los principalesvsdddddddddddddd constante la información de los principalessddddddddddddd
-        sdddddddddddddd constante la información de los principale
-      </string>
-    <string name="p2">facebook Noticias es un agregador y buscador de noticias
-        automatizado que rastrea de forma constante la información de los princiGoogle Noti
-        sdddddddddddddd constante la información de los principales
-        </string>
-    <string name="ep21">dassssssssssssssssssssssssssssssssssssssssssssss
-    d
-    a
-    sd
-    asdddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
-    asdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-    dassssssssssssssssssssssssssss
-    </string>
-    <string name="ep22">
-        dashdioasjdasjlkdjaslkdjlaskjdsajdasd
-        dashdioasjdasjlkdjaslkdjlaskjdsajdasd
-        dashdioasjdasjlkdjaslkdjlaskjdsajdasd
-        dashdioasjdasjlkdjaslkdjlaskjdsajdasd
-        dashdioasjdasjlkdjaslkdjlaskjdsajdasd
-        dashdioasjdasjlkdjaslkdjlaskjdsajdasd
-        dashdioasjdasjlkdjaslkdjlaskjdsajdasd
-    </string>
+    <string name="seleccione">SELECCIONE UNA ENFERMEDAD DE LA LISTA</string>
 
+    <string name="descripcion">DESCRIPCION</string>
+    <string name="sintomas">SINTOMAS</string>
+    <string name="cuidado">CUIDADO</string>
 
     <!--Enfermedades Gatos-->
     <!--Enfermedades Aves-->

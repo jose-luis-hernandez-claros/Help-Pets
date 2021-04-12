@@ -14,7 +14,7 @@ import android.widget.TextView;
 public class perros extends AppCompatActivity {
 
 
-    private TextView tv1,tv2,tv21,tv22;
+    private TextView tv1,tv2,descripcion,sintomas,cuidado;
     private  Button ep1,ep2;
 /*
 
@@ -33,8 +33,9 @@ public class perros extends AppCompatActivity {
 
         tv1 = (TextView)findViewById(R.id.tv1);
         tv2 = (TextView)findViewById(R.id.tv2);
-        tv21 = (TextView)findViewById(R.id.tv21);
-        tv22 = (TextView)findViewById(R.id.tv22);
+        descripcion = (TextView)findViewById(R.id.Descripcion);
+        sintomas = (TextView)findViewById(R.id.Sintomas);
+        cuidado = (TextView)findViewById(R.id.Cuidado);
 
 
        /* ver1 = (Button)findViewById(R.id.botonver);
@@ -65,16 +66,54 @@ public class perros extends AppCompatActivity {
 
 
     public void ep1(View view){
-        tv1.setVisibility(View.VISIBLE);
-        tv2.setVisibility(View.VISIBLE);
-        tv21.setVisibility(view.INVISIBLE);
-        tv22.setVisibility(view.INVISIBLE);
+        descripcion.setVisibility(View.VISIBLE);
+        sintomas.setVisibility(View.VISIBLE);
+        cuidado.setVisibility(View.VISIBLE);
+        tv1.setText("Google Noticias es un agregador y buscador de noticias\n" +
+                "        automatizado que rastrea de formadasdddddddddddddd constante la información de los principales\n" +
+                "        sdddddddddddddd constante la información de los principalessdddddddddddddd constante la información de los principales\n" +
+                "        sdddddddddddddd constante la información de los principalesvsdddddddddddddd constante la información de los principalessddddddddddddd\n" +
+                "        sdddddddddddddd constante la información de los principale");
+        tv2.setText("Google Noticias es un agregador y buscador de noticias\n" +
+                "        automatizado que rastrea de formadasdddddddddddddd constante la información de los principales\n" +
+                "        sdddddddddddddd constante la información de los principalessdddddddddddddd constante la información de los principales\n" +
+                "        sdddddddddddddd constante la información de los principalesvsdddddddddddddd constante la información de los principalessddddddddddddd\n" +
+                "        sdddddddddddddd constante la información de los principaleGoogle Noticias es un agregador y buscador de noticias\n" +
+                "        automatizado que rastrea de formadasdddddddddddddd constante la información de los principales\n" +
+                "        sdddddddddddddd constante la información de los principalessdddddddddddddd constante la información de los principales\n" +
+                "        sdddddddddddddd constante la información de los principalesvsdddddddddddddd constante la información de los principalessddddddddddddd\n" +
+                "        sdddddddddddddd constante la información de los principale");
     }
     public void ep2(View view){
-        tv1.setVisibility(View.INVISIBLE);
-        tv2.setVisibility(View.INVISIBLE);
-        tv21.setVisibility(view.VISIBLE);
-        tv22.setVisibility(view.VISIBLE);
+        descripcion.setVisibility(View.VISIBLE);
+        sintomas.setVisibility(View.VISIBLE);
+        cuidado.setVisibility(View.VISIBLE);
+        tv1.setText(" dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd");
+        tv2.setText(" dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd\n" +
+                "        dashdioasjdasjlkdjaslkdjlaskjdsajdasd");
     }
 
 
