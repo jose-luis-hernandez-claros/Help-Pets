@@ -140,37 +140,6 @@
                 android:onClick="registrar"
                 android:text="@string/agregarv" />
 
-            <Button
-                android:id="@+id/button11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:fontFamily="casual"
-                android:onClick="modificar"
-                android:text="@string/modificarma" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <Button
-                android:id="@+id/button12"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:fontFamily="casual"
-                android:onClick="eliminar"
-                android:text="@string/eliminarma" />
-
-            <Button
-                android:id="@+id/button13"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="2"
-                android:fontFamily="casual"
-                android:onClick="consultar"
-                android:text="@string/buscarma" />
         </TableRow>
 
     </TableLayout>

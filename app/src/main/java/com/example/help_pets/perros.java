@@ -14,7 +14,7 @@ import android.widget.TextView;
 public class perros extends AppCompatActivity {
 
 
-    private TextView tv1,tv2,descripcion,sintomas,cuidado;
+    private TextView tv1,tv2,tv3,descripcion,sintomas,cuidado;
     private  Button ep1,ep2;
 /*
 
@@ -33,6 +33,7 @@ public class perros extends AppCompatActivity {
 
         tv1 = (TextView)findViewById(R.id.tv1);
         tv2 = (TextView)findViewById(R.id.tv2);
+        tv3 = (TextView)findViewById(R.id.tv3);
         descripcion = (TextView)findViewById(R.id.Descripcion);
         sintomas = (TextView)findViewById(R.id.Sintomas);
         cuidado = (TextView)findViewById(R.id.Cuidado);
@@ -69,20 +70,25 @@ public class perros extends AppCompatActivity {
         descripcion.setVisibility(View.VISIBLE);
         sintomas.setVisibility(View.VISIBLE);
         cuidado.setVisibility(View.VISIBLE);
-        tv1.setText("Google Noticias es un agregador y buscador de noticias\n" +
-                "        automatizado que rastrea de formadasdddddddddddddd constante la información de los principales\n" +
-                "        sdddddddddddddd constante la información de los principalessdddddddddddddd constante la información de los principales\n" +
-                "        sdddddddddddddd constante la información de los principalesvsdddddddddddddd constante la información de los principalessddddddddddddd\n" +
-                "        sdddddddddddddd constante la información de los principale");
-        tv2.setText("Google Noticias es un agregador y buscador de noticias\n" +
-                "        automatizado que rastrea de formadasdddddddddddddd constante la información de los principales\n" +
-                "        sdddddddddddddd constante la información de los principalessdddddddddddddd constante la información de los principales\n" +
-                "        sdddddddddddddd constante la información de los principalesvsdddddddddddddd constante la información de los principalessddddddddddddd\n" +
-                "        sdddddddddddddd constante la información de los principaleGoogle Noticias es un agregador y buscador de noticias\n" +
-                "        automatizado que rastrea de formadasdddddddddddddd constante la información de los principales\n" +
-                "        sdddddddddddddd constante la información de los principalessdddddddddddddd constante la información de los principales\n" +
-                "        sdddddddddddddd constante la información de los principalesvsdddddddddddddd constante la información de los principalessddddddddddddd\n" +
-                "        sdddddddddddddd constante la información de los principale");
+        tv1.setText("Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
+                "ante cualquier sospecha de tener esta enfermedad es imprescindible acudir de forma inmediata al centro veterinario mas cercano." +
+                "Algunas razas de perro como el Rottweiler son mas propensos a contraer esta enfermedad.\n" +
+                "El Parvovirus se contagia mediante contacto oral/nasal directo de un perro infectado a otro perro," +
+                " a través de las heces de perros infectados con el canino\n" +
+                "Es considerado un virus muy contagioso y tiene un periodo de incubación corto (entre cinco y diez días)");
+
+        tv2.setText("Esta enfermedad por lo general ataca al tejido linfatico e intastinal. Los principales sintomas que produce esta enfermedad son:\n" +
+                "Diarrea (que suele ir acompañada de hemorragia)\n" +
+                "Vómitos\n" +
+                "Fiebre\n" +
+                "Falta de apetito y decaimiento.\n" +
+                "Apatía y/o letargo.\n" +
+                "Depresión\n" +
+                "Pérdida de peso.\n" +
+                "Dolor a la palpación de abdomen.\n" +
+                "En casos más graves, deshidratación (más o menos severa, ya que el virus afecta al tracto intestinal) y muerte del paciente.");
+
+        tv3.setText("");
     }
     public void ep2(View view){
         descripcion.setVisibility(View.VISIBLE);

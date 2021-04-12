@@ -29,8 +29,8 @@
         android:text="@string/seleccione" />
 
     <ScrollView
-        android:layout_width="355dp"
-        android:layout_height="167dp"
+        android:layout_width="360dp"
+        android:layout_height="217dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="26dp"
@@ -176,6 +176,11 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
     </ScrollView>

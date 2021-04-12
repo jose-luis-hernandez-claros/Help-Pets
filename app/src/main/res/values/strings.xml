@@ -42,7 +42,7 @@
 
     <string name="descripcion">DESCRIPCION</string>
     <string name="sintomas">SINTOMAS</string>
-    <string name="cuidado">CUIDADO</string>
+    <string name="cuidado">TRATAMIENTO</string>
 
     <!--Enfermedades Gatos-->
     <!--Enfermedades Aves-->
@@ -84,5 +84,10 @@
 
 
     <string name="title_activity_ubicacionveterinarias">Map</string>
+
+
+    <string name="eliminar"></string>
+    <string name="editar"></string>
+    <string name="buscar"></string>
 
 </resources>
