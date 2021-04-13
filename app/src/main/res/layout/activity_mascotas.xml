@@ -13,20 +13,21 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="11dp"
         android:fontFamily="cursive"
         android:text="@string/enfermedades"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textSize="50sp"
+        android:textSize="40sp"
         android:textStyle="bold" />
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="594dp"
+        android:layout_height="531dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="115dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="72dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -37,7 +38,7 @@
             <ImageButton
                 android:id="@+id/imageButton4"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:backgroundTint="@color/white"
                 android:contentDescription="@string/botonesprincipales"
@@ -47,7 +48,7 @@
             <ImageButton
                 android:id="@+id/imageButton5"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:backgroundTint="@color/white"
                 android:contentDescription="@string/botonesprincipales"
@@ -85,7 +86,7 @@
             <ImageButton
                 android:id="@+id/imageButton6"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="157dp"
                 android:layout_weight="2"
                 android:backgroundTint="@color/white"
                 android:contentDescription="@string/botonesprincipales"
@@ -95,7 +96,7 @@
             <ImageButton
                 android:id="@+id/imageButton9"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:backgroundTint="@color/white"
                 android:contentDescription="@string/botonesprincipales"
@@ -134,7 +135,7 @@
             <ImageButton
                 android:id="@+id/imageButton11"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="149dp"
                 android:layout_weight="2"
                 android:backgroundTint="@color/white"
                 android:contentDescription="@string/botonesprincipales"
