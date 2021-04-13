@@ -83,12 +83,26 @@
     <string name="wtp">WHATSAPP</string>
     <string name="mess">MESSENGER</string>
 
-
+    <!--ubicacion veterinarias-->
     <string name="title_activity_ubicacionveterinarias">Map</string>
 
-
+    <!--botones actionbar-->
     <string name="eliminar"></string>
     <string name="editar"></string>
     <string name="buscar"></string>
+
+    <!--Dieta perro-->
+
+    <string name="dietaperro">DIETAS PARA PERROS</string>
+    <string name="algas">ALGAS</string>
+    <string name="calamares">CALAMARES</string>
+    <string name="carne">CARNES</string>
+    <string name="espirulina">ESPIRULINA</string>
+    <string name="huevos">HUEVOS</string>
+    <string name="melocoton">MELOCOTON</string>
+    <string name="moras">MORAS</string>
+    <string name="pepino">PEPINO</string>
+    <string name="zanahorias">ZANAHORIAS</string>
+
 
 </resources>
