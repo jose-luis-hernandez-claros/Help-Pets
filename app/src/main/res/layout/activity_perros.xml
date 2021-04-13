@@ -45,7 +45,6 @@
                 android:id="@+id/ep1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="ep1"
                 android:text="@string/ep1" />
 
             <Button
@@ -230,12 +229,11 @@
                 android:layout_height="wrap_content" />
 
             <ImageView
-                android:id="@+id/parviovirus"
+                android:id="@+id/botonrepresentacion"
                 android:layout_width="match_parent"
-                android:layout_height="264dp"
+                android:layout_height="114dp"
                 android:contentDescription="@string/descripcioncontenidos"
-                android:visibility="invisible"
-                app:srcCompat="@drawable/parviovirus" />
+                tools:srcCompat="@tools:sample/avatars" />
 
         </LinearLayout>
     </ScrollView>

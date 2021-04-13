@@ -28,7 +28,7 @@ public class dietasperros extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.jeringa);
+                imagencambiante.setImageResource(R.drawable.carnesusar);
                 dietasperrostxt.setText("Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
                         "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
             }

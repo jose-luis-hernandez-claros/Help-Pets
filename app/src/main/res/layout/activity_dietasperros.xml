@@ -19,7 +19,7 @@
         android:text="@string/dietaperro"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textColor="#FFFFFF"
+        android:textColor="#6A5454"
         android:textSize="40sp"
         android:textStyle="bold" />
 
@@ -104,22 +104,23 @@
     </HorizontalScrollView>
 
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="432dp"
+        android:layout_width="358dp"
+        android:layout_height="427dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
         android:layout_marginBottom="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/dietasperrostxt"
                 android:layout_width="match_parent"
-                android:layout_height="72dp"
-                android:textColor="#FFFDFD"
+                android:layout_height="197dp"
+                android:textColor="#594444"
                 android:textSize="20sp" />
 
             <TextView
