@@ -24,22 +24,21 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="93dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="118dp"
         android:text="@string/seleccione" />
 
-    <ScrollView
-        android:layout_width="358dp"
-        android:layout_height="153dp"
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="120dp">
+        android:layout_marginTop="141dp">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/ep1"
@@ -114,16 +113,16 @@
                 android:layout_height="wrap_content"
                 android:text="@string/ep12" />
         </LinearLayout>
-    </ScrollView>
+    </HorizontalScrollView>
 
     <ScrollView
-        android:layout_width="364dp"
-        android:layout_height="251dp"
+        android:layout_width="361dp"
+        android:layout_height="386dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="22dp"
-        android:layout_marginBottom="56dp">
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
