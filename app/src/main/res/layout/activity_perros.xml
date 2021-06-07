@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CFB9B9"
+    android:background="#ECCDCD"
     tools:context=".perros">
 
     <TextView
@@ -38,79 +38,104 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:backgroundTint="#000000"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/ep1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/ep1" />
+                android:backgroundTint="#ECCDCD"
+                android:text="@string/ep1"
+                android:textColor="#8E7575" />
 
             <Button
                 android:id="@+id/ep2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#ECCDCD"
                 android:onClick="ep2"
+                android:textColor="#8E7575"
                 android:text="@string/ep2" />
 
             <Button
                 android:id="@+id/ep3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#ECCDCD"
+                android:textColor="#8E7575"
                 android:text="@string/ep3" />
 
             <Button
                 android:id="@+id/ep4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#ECCDCD"
+                android:textColor="#8E7575"
                 android:text="@string/ep4" />
 
             <Button
                 android:id="@+id/ep5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#ECCDCD"
+                android:textColor="#8E7575"
                 android:text="@string/ep5" />
 
             <Button
                 android:id="@+id/ep6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#ECCDCD"
+                android:textColor="#8E7575"
                 android:text="@string/ep6" />
 
             <Button
                 android:id="@+id/ep7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#ECCDCD"
+                android:textColor="#8E7575"
                 android:text="@string/ep7" />
 
             <Button
                 android:id="@+id/ep8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#ECCDCD"
+                android:textColor="#8E7575"
                 android:text="@string/ep8" />
 
             <Button
                 android:id="@+id/ep9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#ECCDCD"
+                android:textColor="#8E7575"
                 android:text="@string/ep9" />
 
             <Button
                 android:id="@+id/ep10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#ECCDCD"
+                android:textColor="#8E7575"
                 android:text="@string/ep10" />
 
             <Button
                 android:id="@+id/ep11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#ECCDCD"
+                android:textColor="#8E7575"
                 android:text="@string/ep11" />
 
             <Button
                 android:id="@+id/ep12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:backgroundTint="#ECCDCD"
+                android:textColor="#8E7575"
                 android:text="@string/ep12" />
         </LinearLayout>
     </HorizontalScrollView>

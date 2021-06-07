@@ -22,7 +22,7 @@
         android:text="@string/pedirayuda2"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-        android:textSize="40sp"
+        android:textSize="45sp"
         android:textStyle="bold" />
 
     <LinearLayout
@@ -32,7 +32,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="42dp"
         android:layout_marginEnd="30dp"
-        android:background="#FC5679ED"
+        android:background="#56DAEC"
         android:orientation="vertical"></LinearLayout>
 
     <LinearLayout
@@ -49,7 +49,7 @@
             android:id="@+id/textView19"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#0664F3"
+            android:background="#3C7FE4"
             android:text="@string/wtp"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
@@ -60,16 +60,16 @@
             android:id="@+id/imageButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#0664F3"
+            android:background="#3C7FE4"
             android:contentDescription="@string/descripcioncontenidos"
-            android:onClick="mascotas"
+            android:onClick="Whatsapp"
             app:srcCompat="@drawable/wtppng" />
 
         <TextView
             android:id="@+id/textView22"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#2FDA09"
+            android:background="#5BDC3E"
             android:text="@string/mess"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
@@ -79,8 +79,9 @@
             android:id="@+id/imageButton10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#2FDA09"
+            android:background="#5BDC3E"
             android:contentDescription="@string/descripcioncontenidos"
+            android:onClick="Messenger"
             app:srcCompat="@drawable/messpng" />
 
     </LinearLayout>

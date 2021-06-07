@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CFB9B9"
+    android:background="#ECCDCD"
     tools:context=".registromascotas">
 
     <LinearLayout
@@ -17,7 +17,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="1dp"
         android:layout_marginBottom="80dp"
-        android:background="#CFB9B9"
+        android:background="#ECCDCD"
         android:orientation="vertical">
 
         <TextView

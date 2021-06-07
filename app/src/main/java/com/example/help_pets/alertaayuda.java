@@ -14,8 +14,13 @@ public class alertaayuda extends AppCompatActivity {
         setContentView(R.layout.activity_alertaayuda);
     }
 
-    public void mascotas(View view){
-        Intent mascotas = new Intent(this, com.example.help_pets.mascotas.class);
-        startActivity(mascotas);
+    public void Whatsapp(View view){
+        Intent what = new Intent(this, com.example.help_pets.Whatsapp.class);
+        startActivity(what);
+    }
+
+    public void Messenger(View view){
+        Intent Mess = new Intent(this, com.example.help_pets.Messenger.class);
+        startActivity(Mess);
     }
 }

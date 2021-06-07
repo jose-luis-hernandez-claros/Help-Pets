@@ -46,9 +46,16 @@
     <string name="representacion">REPRESENTACION</string>
 
     <!--Enfermedades Gatos-->
+    <string name="enfgatos">Enfermedades De Gatos</string>
+
     <!--Enfermedades Aves-->
+    <string name="enfaves">Enfermedades De Aves</string>
+
     <!--Enfermedades Peces-->
+    <string name="enfpeces">Enfermedades De Peces</string>
+
     <!--Enfermedades Hamsters-->
+    <string name="enfhamnsters">Enfermedades De Hamnsters</string>
 
 
 

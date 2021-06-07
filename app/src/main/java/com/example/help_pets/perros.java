@@ -68,7 +68,8 @@ public class perros extends AppCompatActivity {
                         "Dolor a la palpación de abdomen.\n" +
                         "En casos más graves, deshidratación (más o menos severa, ya que el virus afecta al tracto intestinal) y muerte del paciente.");
 
-                tv3.setText("No existe un tratamiento 100% efectivo del parviovirus, sin embargo, existen pasos a seguir para poder combatirla y tener mejor resultados o en su caso, eliminar totalmente el virus.\n" +
+                tv3.setText("No existe un tratamiento 100% efectivo del parviovirus, sin embargo, existen pasos a seguir para poder combatirla y tener mejor resultados o en su caso, " +
+                        "eliminar totalmente el virus.\n" +
                         "\n" +
                         "Rehidratación. Normalmente se recomienda una administración de suero por vía intravenosa.\n" +
                         "Transfusiones de sangre. Esto por la perdida de sangre debido a las diarreas. Una vez estabilizado, se prosigue con cuidados y monitoreo.\n" +

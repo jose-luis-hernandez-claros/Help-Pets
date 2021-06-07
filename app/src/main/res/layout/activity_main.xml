@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_700"
-    android:backgroundTint="@color/purple_700"
+    android:background="#60D5E4"
+    android:backgroundTint="#60D5E4"
     tools:context=".MainActivity">
 
     <TableLayout
