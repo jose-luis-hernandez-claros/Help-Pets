@@ -21,8 +21,6 @@
     <string name="pedirayuda2">PEDIR AYUDA</string>
 
 
-
-
     <!--Enfermedades Perros-->
     <string name="enfperros">Enfermedades De Perros</string>
     <string name="ep1">Parviovirus</string>
@@ -56,7 +54,6 @@
 
     <!--Enfermedades Hamsters-->
     <string name="enfhamnsters">Enfermedades De Hamnsters</string>
-
 
 
     <!--Registro Mascotas-->
@@ -99,7 +96,6 @@
     <string name="buscar"></string>
 
     <!--Dieta perro-->
-
     <string name="dietaperro">DIETAS PARA PERROS</string>
     <string name="algas">ALGAS</string>
     <string name="calamares">CALAMARES</string>
@@ -110,6 +106,18 @@
     <string name="moras">MORAS</string>
     <string name="pepino">PEPINO</string>
     <string name="zanahorias">ZANAHORIAS</string>
+
+    <!--Dieta gato-->
+    <string name="dietagato">DIETAS PARA GATOS</string>
+
+    <!--Dieta ave-->
+    <string name="dietaave">DIETAS PARA AVES</string>
+
+    <!--Dieta pez-->
+    <string name="dietapez">DIETAS PARA PECES</string>
+
+    <!--Dieta Hamnster-->
+    <string name="dietahamnster">DIETAS PARA HAMNSTERS</string>
 
 
 </resources>

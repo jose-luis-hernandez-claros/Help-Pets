@@ -32,7 +32,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="42dp"
         android:layout_marginEnd="30dp"
-        android:background="#56DAEC"
+        android:background="#2BCFE6"
         android:orientation="vertical"></LinearLayout>
 
     <LinearLayout

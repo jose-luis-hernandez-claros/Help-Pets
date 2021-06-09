@@ -16,11 +16,11 @@
         android:layout_marginStart="1dp"
         android:layout_marginTop="20dp"
         android:fontFamily="cursive"
-        android:text="@string/dietaperro"
+        android:text="@string/dietahamnster"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
         android:textColor="#6A5454"
-        android:textSize="40sp"
+        android:textSize="34sp"
         android:textStyle="bold" />
 
     <HorizontalScrollView

@@ -19,24 +19,24 @@ public class dietas extends AppCompatActivity {
         Intent dietaperros = new Intent(this, com.example.help_pets.dietasperros.class);
         startActivity(dietaperros);
     }
-    /*//abrir pestaña dietas de gatos
+    //abrir pestaña dietas de gatos
     public void dietagatos(View view){
-        Intent dietagatos = new Intent(this, com.example.help_pets.dietagatos.class);
+        Intent dietagatos = new Intent(this, com.example.help_pets.dietasgatos.class);
         startActivity(dietagatos);
     }
     //abrir pestaña dietas de aves
     public void dietaaves(View view){
-        Intent dietaaves = new Intent(this, com.example.help_pets.dietaaves.class);
+        Intent dietaaves = new Intent(this, com.example.help_pets.dietasaves.class);
         startActivity(dietaaves);
     }
     //abrir pestaña dietas de peces
     public void dietapeces(View view){
-        Intent dietapeces = new Intent(this, com.example.help_pets.dietapecess.class);
+        Intent dietapeces = new Intent(this, com.example.help_pets.dietaspeces.class);
         startActivity(dietapeces);
     }
     //abrir pestaña dietas de hamnsters
     public void dietahamnsters(View view){
-        Intent dietahamnsters = new Intent(this, com.example.help_pets.dietahamnsters.class);
+        Intent dietahamnsters = new Intent(this, com.example.help_pets.dietashamnsters.class);
         startActivity(dietahamnsters);
-    }*/
+    }
 }

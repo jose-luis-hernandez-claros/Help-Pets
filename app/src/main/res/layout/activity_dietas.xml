@@ -54,6 +54,7 @@
                 android:layout_weight="2"
                 android:backgroundTint="@color/purple_200"
                 android:contentDescription="@string/botonesprincipales"
+                android:onClick="dietagatos"
                 app:srcCompat="@drawable/gato" />
         </TableRow>
 
@@ -91,6 +92,7 @@
                 android:layout_weight="2"
                 android:backgroundTint="@color/purple_200"
                 android:contentDescription="@string/botonesprincipales"
+                android:onClick="dietaaves"
                 app:srcCompat="@drawable/aves" />
 
             <ImageButton
@@ -100,6 +102,7 @@
                 android:layout_weight="2"
                 android:backgroundTint="@color/purple_200"
                 android:contentDescription="@string/botonesprincipales"
+                android:onClick="dietapeces"
                 app:srcCompat="@drawable/pez" />
 
         </TableRow>
@@ -138,6 +141,7 @@
                 android:layout_weight="2"
                 android:backgroundTint="@color/purple_200"
                 android:contentDescription="@string/botonesprincipales"
+                android:onClick="dietahamnsters"
                 app:srcCompat="@drawable/hamnster" />
         </TableRow>
 
