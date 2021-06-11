@@ -30,6 +30,7 @@
             android:text="@string/registrovacunas"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#6A5454"
             android:textSize="40sp"
             android:textStyle="bold" />
 
@@ -46,6 +47,7 @@
             android:hint="@string/codigomascota"
             android:importantForAutofill="no"
             android:inputType="number"
+            android:textColor="#6A5454"
             android:textColorHighlight="#FFFFFF"
             android:textColorHint="#633838"
             android:textColorLink="#FFFFFF" />
@@ -58,6 +60,7 @@
             android:hint="@string/nombremascota2"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
+            android:textColor="#6A5454"
             android:textColorHint="#5C4545" />
 
         <TextView
@@ -68,7 +71,7 @@
             android:paddingEnd="4dp"
             android:text="@string/tipomascota2"
             android:textAlignment="viewStart"
-            android:textColor="#5C4545"
+            android:textColor="#6A5454"
             android:textColorHint="#FFFFFF" />
 
         <Spinner
@@ -85,7 +88,7 @@
             android:text="@string/sexomascota2"
             android:textAlignment="viewStart"
             android:textAllCaps="false"
-            android:textColor="#5C4545" />
+            android:textColor="#6A5454" />
 
         <Spinner
             android:id="@+id/spinnersexomascota2"
@@ -100,6 +103,7 @@
             android:hint="@string/fechanacimiento2"
             android:importantForAutofill="no"
             android:inputType="date"
+            android:textColor="#6A5454"
             android:textColorHint="#5C4545" />
 
         <EditText
@@ -110,6 +114,7 @@
             android:hint="@string/nombrevacuna"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
+            android:textColor="#6A5454"
             android:textColorHint="#5C4545" />
 
         <EditText
@@ -120,37 +125,20 @@
             android:hint="@string/fechavacunacion"
             android:importantForAutofill="no"
             android:inputType="date"
+            android:textColor="#6A5454"
             android:textColorHint="#5C4545" />
 
     </LinearLayout>
-
-    <TableLayout
-        android:layout_width="257dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="67dp"
-        android:layout_marginTop="73dp"
-        android:layout_marginEnd="67dp"
-        android:layout_marginBottom="72dp">
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="69dp">
-
-        </TableRow>
-
-    </TableLayout>
 
     <Button
         android:id="@+id/button10"
         android:layout_width="296dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="55dp"
-        android:layout_marginBottom="14dp"
+        android:layout_marginTop="557dp"
+        android:layout_marginEnd="59dp"
         android:layout_weight="2"
         android:background="@color/purple_200"
         android:fontFamily="casual"

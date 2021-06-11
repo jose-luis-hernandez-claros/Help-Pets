@@ -43,7 +43,7 @@
                 android:layout_weight="1"
                 android:contentDescription="@string/descripcioncontenidos"
                 android:text="@string/carne"
-                android:textColor="#8E7575" />
+                android:textColor="#6A5454" />
 
             <Button
                 android:id="@+id/algas"
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/algas"
-                android:textColor="#8E7575" />
+                android:textColor="#6A5454" />
 
             <Button
                 android:id="@+id/calamares"
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/calamares"
-                android:textColor="#8E7575" />
+                android:textColor="#6A5454" />
 
             <Button
                 android:id="@+id/espirulina"
@@ -67,7 +67,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/espirulina"
-                android:textColor="#8E7575" />
+                android:textColor="#6A5454" />
 
             <Button
                 android:id="@+id/huevos"
@@ -75,7 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/huevos"
-                android:textColor="#8E7575" />
+                android:textColor="#6A5454" />
 
             <Button
                 android:id="@+id/melocoton"
@@ -83,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/melocoton"
-                android:textColor="#8E7575" />
+                android:textColor="#6A5454" />
 
             <Button
                 android:id="@+id/mora"
@@ -91,7 +91,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/moras"
-                android:textColor="#8E7575" />
+                android:textColor="#6A5454" />
 
             <Button
                 android:id="@+id/pepino"
@@ -99,7 +99,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/pepino"
-                android:textColor="#8E7575" />
+                android:textColor="#6A5454" />
 
             <Button
                 android:id="@+id/zanahorias"
@@ -107,7 +107,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/zanahorias"
-                android:textColor="#8E7575" />
+                android:textColor="#6A5454" />
 
         </LinearLayout>
     </HorizontalScrollView>
@@ -131,7 +131,7 @@
                 android:id="@+id/dietasperrostxt"
                 android:layout_width="match_parent"
                 android:layout_height="197dp"
-                android:textColor="#594444"
+                android:textColor="#6A5454"
                 android:textSize="20sp" />
 
             <TextView

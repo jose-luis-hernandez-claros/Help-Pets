@@ -16,7 +16,8 @@
         android:layout_marginTop="27dp"
         android:fontFamily="cursive"
         android:text="@string/enfaves"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#6A5454" />
 
     <TextView
         android:id="@+id/textView26"
@@ -26,7 +27,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="2dp"
         android:layout_marginTop="118dp"
-        android:text="@string/seleccione" />
+        android:text="@string/seleccione"
+        android:textColor="#6A5454" />
 
     <HorizontalScrollView
         android:layout_width="match_parent"
@@ -47,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:text="@string/ep1"
-                android:textColor="#8E7575" />
+                android:textColor="#6A5454" />
 
             <Button
                 android:id="@+id/ep2"
@@ -55,15 +57,15 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:onClick="ep2"
-                android:textColor="#8E7575"
-                android:text="@string/ep2" />
+                android:text="@string/ep2"
+                android:textColor="#6A5454" />
 
             <Button
                 android:id="@+id/ep3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
-                android:textColor="#8E7575"
+                android:textColor="#6A5454"
                 android:text="@string/ep3" />
 
             <Button
@@ -71,7 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
-                android:textColor="#8E7575"
+                android:textColor="#6A5454"
                 android:text="@string/ep4" />
 
             <Button
@@ -79,7 +81,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
-                android:textColor="#8E7575"
+                android:textColor="#6A5454"
                 android:text="@string/ep5" />
 
             <Button
@@ -87,7 +89,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
-                android:textColor="#8E7575"
+                android:textColor="#6A5454"
                 android:text="@string/ep6" />
 
             <Button
@@ -95,7 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
-                android:textColor="#8E7575"
+                android:textColor="#6A5454"
                 android:text="@string/ep7" />
 
             <Button
@@ -103,7 +105,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
-                android:textColor="#8E7575"
+                android:textColor="#6A5454"
                 android:text="@string/ep8" />
 
             <Button
@@ -111,7 +113,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
-                android:textColor="#8E7575"
+                android:textColor="#6A5454"
                 android:text="@string/ep9" />
 
             <Button
@@ -119,7 +121,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
-                android:textColor="#8E7575"
+                android:textColor="#6A5454"
                 android:text="@string/ep10" />
 
             <Button
@@ -127,7 +129,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
-                android:textColor="#8E7575"
+                android:textColor="#6A5454"
                 android:text="@string/ep11" />
 
             <Button
@@ -135,7 +137,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
-                android:textColor="#8E7575"
+                android:textColor="#6A5454"
                 android:text="@string/ep12" />
         </LinearLayout>
     </HorizontalScrollView>
@@ -143,10 +145,12 @@
     <ScrollView
         android:layout_width="361dp"
         android:layout_height="386dp"
+        android:layout_below="@+id/textView26"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="24dp"
+        android:layout_marginTop="80dp"
         android:layout_marginBottom="0dp">
 
         <LinearLayout
@@ -161,7 +165,7 @@
                 android:fontFamily="cursive"
                 android:text="@string/descripcion"
                 android:textAlignment="center"
-                android:textColor="#1B0F0F"
+                android:textColor="#6A5454"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:visibility="invisible" />
@@ -169,12 +173,13 @@
             <TextView
                 android:id="@+id/textView25"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"/>
 
             <TextView
                 android:id="@+id/tv1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColor="#6A5454"/>
 
             <TextView
                 android:id="@+id/textView27"
@@ -188,7 +193,7 @@
                 android:fontFamily="cursive"
                 android:text="@string/sintomas"
                 android:textAlignment="center"
-                android:textColor="#130C0C"
+                android:textColor="#6A5454"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:visibility="invisible" />
@@ -201,7 +206,8 @@
             <TextView
                 android:id="@+id/tv2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColor="#6A5454"/>
 
             <TextView
                 android:id="@+id/textView29"
@@ -215,7 +221,7 @@
                 android:fontFamily="cursive"
                 android:text="@string/cuidado"
                 android:textAlignment="center"
-                android:textColor="#190D0D"
+                android:textColor="#6A5454"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:visibility="invisible" />
@@ -228,7 +234,8 @@
             <TextView
                 android:id="@+id/tv3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:textColor="#6A5454"/>
 
             <TextView
                 android:id="@+id/textView24"
@@ -242,7 +249,7 @@
                 android:fontFamily="cursive"
                 android:text="@string/representacion"
                 android:textAlignment="center"
-                android:textColor="#1B0F0F"
+                android:textColor="#6A5454"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:visibility="invisible" />

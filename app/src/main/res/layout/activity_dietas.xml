@@ -20,6 +20,7 @@
         android:text="@string/dietas2"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#6A5454"
         android:textSize="30sp"
         android:textStyle="bold" />
 
@@ -69,7 +70,8 @@
                 android:layout_weight="1"
                 android:text="@string/perros"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#6A5454" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -78,7 +80,8 @@
                 android:layout_weight="1"
                 android:text="@string/gatos"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#6A5454" />
         </TableRow>
 
         <TableRow
@@ -118,7 +121,8 @@
                 android:layout_weight="1"
                 android:text="@string/aves"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#6A5454" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -127,7 +131,8 @@
                 android:layout_weight="1"
                 android:text="@string/peces"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#6A5454" />
         </TableRow>
 
         <TableRow
@@ -156,7 +161,8 @@
                 android:layout_weight="1"
                 android:text="@string/hamnsters"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#6A5454" />
         </TableRow>
 
     </TableLayout>
