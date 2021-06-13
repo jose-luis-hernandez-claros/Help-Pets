@@ -19,22 +19,22 @@ import android.widget.Toast;
 public class registromascotas extends AppCompatActivity {
 
 
-    private Spinner tipomascota, sexomascota;
-    private EditText codigo, nombrem, fecham, razam; //codigo, nombre, fecha, raza
+    /*private Spinner tipomascota, sexomascota;*/
+    private EditText codigo, nombrem, fecham, razam, tipom, sexom; //codigo, nombre, fecha, raza
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registromascotas);
 
-       tipomascota = (Spinner) findViewById(R.id.spinnertipomascota1);
-        sexomascota = (Spinner) findViewById(R.id.spinnersexomascota1);
+       tipom = (EditText) findViewById(R.id.idtipomascotama);
+        sexom = (EditText) findViewById(R.id.idsexomascotama);
 
         codigo = (EditText) findViewById(R.id.ididentificacionmascota);
         nombrem = (EditText) findViewById(R.id.idnombremascota);
         fecham = (EditText) findViewById(R.id.idfechanacimientomascota);
         razam = (EditText) findViewById(R.id.idrazamascota);
 
-        //Tipos de mascotas
+       /* //Tipos de mascotas
 
         String[] mascotas = {"Seleccionar...","Perro", "Gato", "Ave", "Pez", "Hamnster"};
 
@@ -45,7 +45,7 @@ public class registromascotas extends AppCompatActivity {
         //Sexo de mascota
         String[] sexomascota1 = {"Seleccionar...","Macho", "Hembra"};
         ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, sexomascota1);
-        sexomascota.setAdapter(adapter2);
+        sexomascota.setAdapter(adapter2);*/
 
     }
 
@@ -68,11 +68,13 @@ public class registromascotas extends AppCompatActivity {
 
             if(!codigos.isEmpty()){
                 Cursor filaa = db.rawQuery
-                        ("select nombrem, fechan, razam from mascotas where codigo =" + codigos, null);
+                        ("select nombrem, tipo, sexo, fechan, razam from mascotas where codigo =" + codigos, null);
                 if (filaa.moveToFirst()){
                     nombrem.setText(filaa.getString(0));
-                    fecham.setText(filaa.getString(1));
-                    razam.setText(filaa.getString(2));
+                    tipom.setText(filaa.getString(1));
+                    sexom.setText(filaa.getString(2));
+                    fecham.setText(filaa.getString(3));
+                    razam.setText(filaa.getString(4));
                     db.close();
                 }else{
                     Toast.makeText(this, "No se encontrarón datos.", Toast.LENGTH_SHORT).show();
@@ -93,6 +95,8 @@ public class registromascotas extends AppCompatActivity {
                 db.close();
                 codigo.setText("");
                 nombrem.setText("");
+                tipom.setText("");
+                sexom.setText("");
                 fecham.setText("");
                 razam.setText("");
 
@@ -112,13 +116,17 @@ public class registromascotas extends AppCompatActivity {
 
             String Scodigo = codigo.getText().toString();
             String Snombre = nombrem.getText().toString();
+            String Stipo = tipom.getText().toString();
+            String Ssexo = sexom.getText().toString();
             String Sfecham = fecham.getText().toString();
             String Srazam = razam.getText().toString();
 
-            if(!Scodigo.isEmpty() && !Snombre.isEmpty() && !Sfecham.isEmpty() && !Srazam.isEmpty()){
+            if(!Scodigo.isEmpty() && !Snombre.isEmpty() && !Stipo.isEmpty() && !Ssexo.isEmpty() && !Sfecham.isEmpty() && !Srazam.isEmpty()){
                 ContentValues registrom = new ContentValues(); //contenido de los campos
                 registrom.put("codigo",Scodigo); //guardar codigo
                 registrom.put("nombrem",Snombre); //guardar nombre
+                registrom.put("tipo",Stipo); //guardar tipo
+                registrom.put("sexo",Ssexo); //guardar sexo
                 registrom.put("fechan",Sfecham); //guardar fecha
                 registrom.put("razam",Srazam); //guardar raza
 
@@ -126,6 +134,8 @@ public class registromascotas extends AppCompatActivity {
                 db.close();
                 codigo.setText("");
                 nombrem.setText("");
+                tipom.setText("");
+                sexom.setText("");
                 fecham.setText("");
                 razam.setText("");
 
@@ -152,13 +162,17 @@ public class registromascotas extends AppCompatActivity {
 
         String Scodigo = codigo.getText().toString();
         String Snombre = nombrem.getText().toString();
+        String Stipo = tipom.getText().toString();
+        String Ssexo = sexom.getText().toString();
         String Sfecham = fecham.getText().toString();
         String Srazam = razam.getText().toString();
 
-        if(!Scodigo.isEmpty() && !Snombre.isEmpty() && !Sfecham.isEmpty() && !Srazam.isEmpty()){
+        if(!Scodigo.isEmpty() && !Snombre.isEmpty() && !Stipo.isEmpty() && !Ssexo.isEmpty() && !Sfecham.isEmpty() && !Srazam.isEmpty()){
             ContentValues registrom = new ContentValues(); //contenido base de datos
             registrom.put("codigo",Scodigo); //guardar codigo
             registrom.put("nombrem",Snombre); //guardar nombre
+            registrom.put("tipo",Stipo); //guardar tipo
+            registrom.put("sexo",Ssexo); //guardar sexo
             registrom.put("fechan",Sfecham); //guardar fecha
             registrom.put("razam",Srazam); //guardar raza
 
@@ -166,6 +180,8 @@ public class registromascotas extends AppCompatActivity {
             db.close();
             codigo.setText("");
             nombrem.setText("");
+            tipom.setText("");
+            sexom.setText("");
             fecham.setText("");
             razam.setText("");
 

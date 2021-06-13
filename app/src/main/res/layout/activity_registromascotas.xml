@@ -75,10 +75,12 @@
             android:textColor="#6A5454"
             android:textColorLink="#FFFFFF" />
 
-        <Spinner
-            android:id="@+id/spinnertipomascota1"
+        <EditText
+            android:id="@+id/idtipomascotama"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
 
         <TextView
             android:id="@+id/textView20"
@@ -91,10 +93,12 @@
             android:textColor="#6A5454"
             android:textColorHint="#5C4545" />
 
-        <Spinner
-            android:id="@+id/spinnersexomascota1"
+        <EditText
+            android:id="@+id/idsexomascotama"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
 
         <EditText
             android:id="@+id/idfechanacimientomascota"
