@@ -94,7 +94,7 @@
                 android:background="@color/purple_200"
                 android:contentDescription="@string/descripcioncontenidos"
                 android:onClick="alertaayuda"
-                app:srcCompat="@drawable/myw" />
+                app:srcCompat="@drawable/gyw" />
 
         </TableRow>
 

@@ -20,7 +20,8 @@ public class alertaayuda extends AppCompatActivity {
     }
 
     public void Messenger(View view){
-        Intent Mess = new Intent(this, com.example.help_pets.Messenger.class);
+        Intent Mess = new Intent(this, com.example.help_pets.Gmail.class);
         startActivity(Mess);
     }
+
 }

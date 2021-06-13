@@ -85,7 +85,12 @@
 
     <!--Pedir ayuda-->
     <string name="wtp">WHATSAPP</string>
-    <string name="mess">MESSENGER</string>
+    <string name="wtomsg">Escriba Su Mensaje</string>
+    <string name="enviarmsgw">Enviar Mensaje</string>
+    <string name="gmail">GMAIL</string>
+    <string name="desti">Destinatario</string>
+    <string name="asunt">Asunto</string>
+    <string name="mensaje">Mensaje</string>
 
     <!--ubicacion veterinarias-->
     <string name="title_activity_ubicacionveterinarias">Map</string>

@@ -49,7 +49,7 @@ public class registromascotas extends AppCompatActivity {
 
     }
 
-    @Override
+    @Override //botones menu mascotas
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.mascotas, menu);
         return true;

@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 public class vacunas extends AppCompatActivity {
 
-    private Spinner tipomascota,sexomascota;
+    private EditText tipomascota,sexomascota;
     private EditText etcodigo, etnombrem, etfechan, etnombrev, etfechav;
 
     @Override
@@ -25,8 +25,8 @@ public class vacunas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vacunas);
 
-        tipomascota = (Spinner)findViewById(R.id.spinnertipomascota2);
-        sexomascota = (Spinner)findViewById(R.id.spinnersexomascota2);
+        tipomascota = (EditText)findViewById(R.id.idtipomascotava);
+        sexomascota = (EditText)findViewById(R.id.idsexomascotava);
 
         etcodigo = (EditText)findViewById(R.id.ididentificacionvacuna);
         etnombrem = (EditText)findViewById(R.id.idnombremascota2);
@@ -35,7 +35,7 @@ public class vacunas extends AppCompatActivity {
         etfechav = (EditText)findViewById(R.id.idfechavacunacion);
 
 
-        //Tipo de mascota
+      /*  //Tipo de mascota
 
         String [] mascotas = {"Seleccionar...","Perro","Gato","Ave","Pez","Hamnster"};
 
@@ -46,11 +46,11 @@ public class vacunas extends AppCompatActivity {
         //sexo de la mascota
         String [] sexomascota1 = {"Seleccionar...","Macho","Hembra"};
         ArrayAdapter <String> adapter2 = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, sexomascota1);
-        sexomascota.setAdapter(adapter2);
+        sexomascota.setAdapter(adapter2);*/
 
 
     }
-    @Override
+    @Override //botones menu vacunas
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.vacunas, menu);
         return true;
@@ -63,7 +63,7 @@ public class vacunas extends AppCompatActivity {
         if(id ==R.id.buscar2){
             //Metodo para consultar
 
-                vacunasbd admin = new vacunasbd(this,"vacunaspruebaaaa",null,1);
+                vacunasbd admin = new vacunasbd(this,"vacunasfinal",null,1);
                 SQLiteDatabase db = admin.getWritableDatabase(); // permisos lectura y escritura
 
                 String codigo= etcodigo.getText().toString();
@@ -71,12 +71,14 @@ public class vacunas extends AppCompatActivity {
 
                 if(!codigo.isEmpty()){
                     Cursor fila = db.rawQuery
-                            ("select nombrem, fechan, nombrev, fechav from vacunas where codigo=" + codigo, null);
+                            ("select nombrem, tipom, sexom, fechan, nombrev, fechav from vacunas where codigo=" + codigo, null);
                     if (fila.moveToFirst()){
                         etnombrem.setText(fila.getString(0));
-                        etfechan.setText(fila.getString(1));
-                        etnombrev.setText(fila.getString(2));
-                        etfechav.setText(fila.getString(3));
+                        tipomascota.setText(fila.getString(1));
+                        sexomascota.setText(fila.getString(2));
+                        etfechan.setText(fila.getString(3));
+                        etnombrev.setText(fila.getString(4));
+                        etfechav.setText(fila.getString(5));
                         db.close();
                     }else{
                         Toast.makeText(this, "No existe el articulo", Toast.LENGTH_SHORT).show();
@@ -88,7 +90,7 @@ public class vacunas extends AppCompatActivity {
                 return true;
         }
         if(id==R.id.eliminar2){
-            vacunasbd admin = new vacunasbd(this,"vacunaspruebaaaa",null,1);
+            vacunasbd admin = new vacunasbd(this,"vacunasfinal",null,1);
             SQLiteDatabase db = admin.getWritableDatabase(); //metodo abrir db lectura y escritura
             String codigo = etcodigo.getText().toString();
 
@@ -97,6 +99,8 @@ public class vacunas extends AppCompatActivity {
                 db.close();
                 etcodigo.setText("");
                 etnombrem.setText("");
+                tipomascota.setText("");
+                sexomascota.setText("");
                 etfechan.setText("");
                 etnombrev.setText("");
                 etfechav.setText("");
@@ -112,23 +116,23 @@ public class vacunas extends AppCompatActivity {
             return  true;
         }
         if(id==R.id.editar2){
-            vacunasbd admin = new vacunasbd(this,"vacunaspruebaaaa",null,1);
+            vacunasbd admin = new vacunasbd(this,"vacunasfinal",null,1);
             SQLiteDatabase db = admin.getWritableDatabase();
 
             String Scodigo = etcodigo.getText().toString();
             String Snombrem = etnombrem.getText().toString();
-     /*   String Stipom = tipomascota.toString();
-            String Ssexom = sexomascota.toString();*/
+            String Stipom = tipomascota.getText().toString();
+            String Ssexom = sexomascota.getText().toString();
             String Sfechan = etfechan.getText().toString();
             String Snombrev = etnombrev.getText().toString();
             String Sfechav = etfechav.getText().toString();
 
-            if(!Scodigo.isEmpty() && !Snombrem.isEmpty() /*&& !Stipom.isEmpty() && !Ssexom.isEmpty()*/ && !Sfechan.isEmpty() && !Snombrev.isEmpty() && !Sfechav.isEmpty()){
+            if(!Scodigo.isEmpty() && !Snombrem.isEmpty() && !Stipom.isEmpty() && !Ssexom.isEmpty() && !Sfechan.isEmpty() && !Snombrev.isEmpty() && !Sfechav.isEmpty()){
                 ContentValues registro = new ContentValues(); //contenido de los campos
                 registro.put("codigo",Scodigo); //guardar codigo
                 registro.put("nombrem",Snombrem); //guardar nombre mascota
-            /*registro.put("tipom",Stipom);
-                registro.put("sexom",Ssexom);*/
+                registro.put("tipom",Stipom); //guardar tipo nascota
+                registro.put("sexom",Ssexom); //guardar sexo mascota
                 registro.put("fechan",Sfechan); //guardar fecha nacimiento
                 registro.put("nombrev",Snombrev); //guardar nombre vacuna
                 registro.put("fechav",Sfechav); //guardar fecha vacunacion
@@ -137,6 +141,8 @@ public class vacunas extends AppCompatActivity {
                 db.close();
                 etcodigo.setText("");
                 etnombrem.setText("");
+                tipomascota.setText("");
+                sexomascota.setText("");
                 etfechan.setText("");
                 etnombrev.setText("");
                 etfechav.setText("");
@@ -158,23 +164,23 @@ public class vacunas extends AppCompatActivity {
     //Metodo boton registrar
 
     public void registrar(View view){
-        vacunasbd admin = new vacunasbd(this,"vacunaspruebaaaa",null,1);
+        vacunasbd admin = new vacunasbd(this,"vacunasfinal",null,1);
         SQLiteDatabase db = admin.getReadableDatabase(); //abrir base de datos modo lectura y escritura
 
         String Scodigo = etcodigo.getText().toString();
         String Snombrem = etnombrem.getText().toString();
-     /*   String Stipom = tipomascota.toString();
-        String Ssexom = sexomascota.toString();*/
+        String Stipom = tipomascota.getText().toString();
+        String Ssexom = sexomascota.getText().toString();
         String Sfechan = etfechan.getText().toString();
         String Snombrev = etnombrev.getText().toString();
         String Sfechav = etfechav.getText().toString();
 
-        if(!Scodigo.isEmpty() && !Snombrem.isEmpty() /*&& !Stipom.isEmpty() && !Ssexom.isEmpty()*/ && !Sfechan.isEmpty() && !Snombrev.isEmpty() && !Sfechav.isEmpty()){
+        if(!Scodigo.isEmpty() && !Snombrem.isEmpty() && !Stipom.isEmpty() && !Ssexom.isEmpty() && !Sfechan.isEmpty() && !Snombrev.isEmpty() && !Sfechav.isEmpty()){
             ContentValues registro = new ContentValues(); //contenido base de datos
             registro.put("codigo",Scodigo); //guardar codigo
             registro.put("nombrem",Snombrem); //guardar nombre mascota
-            /*registro.put("tipom",Stipom);
-            registro.put("sexom",Ssexom);*/
+            registro.put("tipom",Stipom); //guardar tipo nascota
+            registro.put("sexom",Ssexom); //guardar sexo mascota
             registro.put("fechan",Sfechan); //guardar fecha nacimiento
             registro.put("nombrev",Snombrev); //guardar nombre vacuna
             registro.put("fechav",Sfechav); //guardar fecha vacunacion
@@ -183,6 +189,8 @@ public class vacunas extends AppCompatActivity {
             db.close();
             etcodigo.setText("");
             etnombrem.setText("");
+            tipomascota.setText("");
+            sexomascota.setText("");
             etfechan.setText("");
             etnombrev.setText("");
             etfechav.setText("");

@@ -18,14 +18,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HelpPets">
-        <activity android:name=".dietashamnsters"
+        <activity android:name=".Gmail"
             android:screenOrientation="portrait"></activity>
-        <activity android:name=".dietaspeces"
+        <activity android:name=".Whatsapp"
             android:screenOrientation="portrait"/>
-        <activity android:name=".dietasaves"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".dietasgatos"
-            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".dietashamnsters"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dietaspeces"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dietasaves"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dietasgatos"
+            android:screenOrientation="portrait" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").

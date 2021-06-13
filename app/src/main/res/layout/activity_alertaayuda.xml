@@ -50,7 +50,7 @@
             android:id="@+id/textView19"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#5596F8"
+            android:background="#C13C3C"
             android:text="@string/wtp"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
@@ -58,10 +58,10 @@
             android:textSize="20sp" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/idwhatsapp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#5596F8"
+            android:background="#C13C3C"
             android:contentDescription="@string/descripcioncontenidos"
             android:onClick="Whatsapp"
             app:srcCompat="@drawable/wtppng" />
@@ -70,20 +70,20 @@
             android:id="@+id/textView22"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#6BEC4F"
-            android:text="@string/mess"
+            android:background="#58C83F"
+            android:text="@string/gmail"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
         <ImageButton
-            android:id="@+id/imageButton10"
+            android:id="@+id/idmessenger"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#6BEC4F"
+            android:background="#58C83F"
             android:contentDescription="@string/descripcioncontenidos"
             android:onClick="Messenger"
-            app:srcCompat="@drawable/messpng" />
+            app:srcCompat="@drawable/gmailpng" />
 
     </LinearLayout>
 

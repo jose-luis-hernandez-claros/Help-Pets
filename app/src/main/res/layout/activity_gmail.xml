@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60D5E4"
+    tools:context=".Whatsapp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="304dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:fontFamily="cursive"
+        android:text="@string/gmail"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#6A5454"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/iddesti"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp"
+        android:ems="10"
+        android:hint="@string/desti"
+        android:inputType="textPersonName"
+        android:textColor="#6A5454" />
+
+    <EditText
+        android:id="@+id/idasunt"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="182dp"
+        android:ems="10"
+        android:hint="@string/asunt"
+        android:inputType="textPersonName"
+        android:textColor="#6A5454" />
+
+    <EditText
+        android:id="@+id/idmensajem"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="254dp"
+        android:ems="10"
+        android:hint="@string/mensaje"
+        android:inputType="textMultiLine"
+        android:textColor="#6A5454" />
+
+    <Button
+        android:id="@+id/botonenviarm"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="355dp"
+        android:layout_marginEnd="65dp"
+        android:background="@color/purple_200"
+        android:drawableRight="@drawable/gmailpng"
+        android:fontFamily="casual"
+        android:text="@string/enviarmsgw"
+        android:textColor="#6A5454" />
+
+
+
+</RelativeLayout>

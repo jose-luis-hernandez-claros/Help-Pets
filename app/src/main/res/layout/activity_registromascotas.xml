@@ -80,7 +80,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="#6A5454"
+            android:textColorHighlight="#6A5454"
+            android:textColorHint="#6A5454"
+            android:textColorLink="#6A5454" />
 
         <TextView
             android:id="@+id/textView20"
@@ -98,7 +102,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="#6A5454"
+            android:textColorHighlight="#6A5454"
+            android:textColorHint="#6A5454"
+            android:textColorLink="#6A5454"/>
 
         <EditText
             android:id="@+id/idfechanacimientomascota"
@@ -125,7 +133,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/botonenviarm"
         android:layout_width="285dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"

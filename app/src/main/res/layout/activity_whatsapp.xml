@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60D5E4"
+    tools:context=".Whatsapp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="304dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:fontFamily="cursive"
+        android:text="@string/wtp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#6A5454"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/idmensajem"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="173dp"
+        android:ems="10"
+        android:hint="@string/wtomsg"
+        android:inputType="textPersonName"
+        android:textColor="#6A5454" />
+
+    <Button
+        android:id="@+id/botonenviarm"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="61dp"
+        android:background="@color/purple_200"
+        android:fontFamily="casual"
+        android:text="@string/enviarmsgw"
+        android:textColor="#6A5454"
+        android:drawableRight="@drawable/wtppng"/>
+
+</RelativeLayout>
