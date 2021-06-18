@@ -91,6 +91,7 @@ public class ubicacionveterinarias extends FragmentActivity implements OnMapRead
         locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
 
 
+
 //    @Override
 //    public void onMapReady(GoogleMap googleMap) {
 //        mMap = googleMap;
