@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:contentDescription="@string/descripcioncontenidos"
-                android:text="@string/carne"
+                android:text="@string/da1"
                 android:textColor="#6A5454" />
 
             <Button
@@ -50,7 +50,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/algas"
+                android:text="@string/da2"
                 android:textColor="#6A5454" />
 
             <Button
@@ -58,7 +58,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/calamares"
+                android:text="@string/da3"
                 android:textColor="#6A5454" />
 
             <Button
@@ -66,7 +66,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/espirulina"
+                android:text="@string/da4"
                 android:textColor="#6A5454" />
 
             <Button
@@ -74,7 +74,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/huevos"
+                android:text="@string/da5"
                 android:textColor="#6A5454" />
 
             <Button
@@ -82,32 +82,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/melocoton"
+                android:text="@string/da6"
                 android:textColor="#6A5454" />
 
-            <Button
-                android:id="@+id/da7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/moras"
-                android:textColor="#6A5454" />
-
-            <Button
-                android:id="@+id/da8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/pepino"
-                android:textColor="#6A5454" />
-
-            <Button
-                android:id="@+id/da9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/zanahorias"
-                android:textColor="#6A5454" />
 
         </LinearLayout>
     </HorizontalScrollView>

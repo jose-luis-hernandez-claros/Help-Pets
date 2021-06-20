@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:contentDescription="@string/descripcioncontenidos"
-                android:text="@string/carne"
+                android:text="@string/dh1"
                 android:textColor="#6A5454" />
 
             <Button
@@ -50,7 +50,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/algas"
+                android:text="@string/dh2"
                 android:textColor="#6A5454" />
 
             <Button
@@ -58,7 +58,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/calamares"
+                android:text="@string/dh3"
                 android:textColor="#6A5454" />
 
             <Button
@@ -66,7 +66,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/espirulina"
+                android:text="@string/dh4"
                 android:textColor="#6A5454" />
 
             <Button
@@ -74,7 +74,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/huevos"
+                android:text="@string/dh5"
                 android:textColor="#6A5454" />
 
             <Button
@@ -82,7 +82,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/melocoton"
+                android:text="@string/dh6"
                 android:textColor="#6A5454" />
 
             <Button
@@ -90,7 +90,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/moras"
+                android:text="@string/dh7"
                 android:textColor="#6A5454" />
 
             <Button
@@ -98,16 +98,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/pepino"
+                android:text="@string/dh8"
                 android:textColor="#6A5454" />
 
-            <Button
-                android:id="@+id/dh9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/zanahorias"
-                android:textColor="#6A5454" />
 
         </LinearLayout>
     </HorizontalScrollView>

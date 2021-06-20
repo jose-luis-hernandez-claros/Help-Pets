@@ -141,15 +141,15 @@
 
     <!--Dieta perro-->
     <string name="dietaperro">DIETAS PARA PERROS</string>
-    <string name="algas">ALGAS</string>
-    <string name="calamares">CALAMARES</string>
-    <string name="carne">CARNES</string>
-    <string name="espirulina">ESPIRULINA</string>
-    <string name="huevos">HUEVOS</string>
-    <string name="melocoton">MELOCOTON</string>
-    <string name="moras">MORAS</string>
-    <string name="pepino">PEPINO</string>
-    <string name="zanahorias">ZANAHORIAS</string>
+    <string name="algas">Algas</string>
+    <string name="calamares">Calamares</string>
+    <string name="carne">Carnes</string>
+    <string name="espirulina">Espirulina</string>
+    <string name="huevos">Huevos</string>
+    <string name="melocoton">Melocoton</string>
+    <string name="moras">Moras</string>
+    <string name="pepino">Pepino</string>
+    <string name="zanahorias">Zanahorias</string>
 
     <!--Dieta gato-->
     <string name="dietagato">DIETAS PARA GATOS</string>
@@ -181,15 +181,14 @@
 
     <!--Dieta Hamnster-->
     <string name="dietahamnster">DIETAS PARA HAMNSTERS</string>
-    <string name="dh1">ALGAS</string>
-    <string name="dh2">CALAMARES</string>
-    <string name="dh3">CARNES</string>
-    <string name="dh4">ESPIRULINA</string>
-    <string name="dh5">HUEVOS</string>
-    <string name="dh6">MELOCOTON</string>
-    <string name="dh7">MORAS</string>
-    <string name="dh8">PEPINO</string>
-    <string name="dh9">ZANAHORIAS</string>
+    <string name="dh1">Zanahorias</string>
+    <string name="dh2">Trigo</string>
+    <string name="dh3">Cebada</string>
+    <string name="dh4">Maiz</string>
+    <string name="dh5">Avena</string>
+    <string name="dh6">Avellanas</string>
+    <string name="dh7">Castañas</string>
+    <string name="dh8">Nueces</string>
 
 
 </resources>

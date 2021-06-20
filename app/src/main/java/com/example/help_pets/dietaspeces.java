@@ -25,9 +25,6 @@ public class dietaspeces extends AppCompatActivity {
         dpe4= (Button)findViewById(R.id.dpe4);
         dpe5= (Button)findViewById(R.id.dpe5);
         dpe6= (Button)findViewById(R.id.dpe6);
-        dpe7= (Button)findViewById(R.id.dpe7);
-        dpe8= (Button)findViewById(R.id.dpe8);
-        dpe9= (Button)findViewById(R.id.dpe9);
         imagencambiante = (ImageView)findViewById(R.id.imagencambiante);
         dietasperrostxt = (TextView) findViewById(R.id.dietasperrostxt);
 
@@ -91,35 +88,7 @@ public class dietaspeces extends AppCompatActivity {
             }
         });
 
-        dpe7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("7Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
-            }
-        });
-
-        dpe8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("8Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
-            }
-        });
-
-        dpe9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("9Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
-            }
-        });
 
     }
 }

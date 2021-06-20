@@ -26,7 +26,6 @@ public class dietashamnsters extends AppCompatActivity {
         dh6= (Button)findViewById(R.id.dh6);
         dh7= (Button)findViewById(R.id.dh7);
         dh8= (Button)findViewById(R.id.dh8);
-        dh9= (Button)findViewById(R.id.dh9);
         imagencambiante = (ImageView)findViewById(R.id.imagencambiante);
         dietasperrostxt = (TextView) findViewById(R.id.dietasperrostxt);
 
@@ -110,15 +109,6 @@ public class dietashamnsters extends AppCompatActivity {
             }
         });
 
-        dh9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("9Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
-            }
-        });
 
     }
 }
