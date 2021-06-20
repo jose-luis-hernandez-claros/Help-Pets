@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class dietasgatos extends AppCompatActivity {
 
-    private Button dp1,dp2,dp3,dp4,dp5,dp6,dp7,dp8,dp9;
+    private Button dg1,dg2,dg3,dg4,dg5,dg6,dg7,dg8,dg9;
     private ImageView imagencambiante;
     private TextView dietasperrostxt;
 
@@ -19,19 +19,19 @@ public class dietasgatos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dietasgatos);
 
-        dp1= (Button)findViewById(R.id.dp1);
-        dp2= (Button)findViewById(R.id.dp2);
-        dp3= (Button)findViewById(R.id.dp3);
-        dp4= (Button)findViewById(R.id.dp4);
-        dp5= (Button)findViewById(R.id.dp5);
-        dp6= (Button)findViewById(R.id.dp6);
-        dp7= (Button)findViewById(R.id.dp7);
-        dp8= (Button)findViewById(R.id.dp8);
-        dp9= (Button)findViewById(R.id.dp9);
+        dg1= (Button)findViewById(R.id.dg1);
+        dg2= (Button)findViewById(R.id.dg2);
+        dg3= (Button)findViewById(R.id.dg3);
+        dg4= (Button)findViewById(R.id.dg4);
+        dg5= (Button)findViewById(R.id.dg5);
+        dg6= (Button)findViewById(R.id.dg6);
+        dg7= (Button)findViewById(R.id.dg7);
+        dg8= (Button)findViewById(R.id.dg8);
+        dg9= (Button)findViewById(R.id.dg9);
         imagencambiante = (ImageView)findViewById(R.id.imagencambiante);
         dietasperrostxt = (TextView) findViewById(R.id.dietasperrostxt);
 
-        dp1.setOnClickListener(new View.OnClickListener() {
+        dg1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -41,7 +41,7 @@ public class dietasgatos extends AppCompatActivity {
             }
         });
 
-        dp2.setOnClickListener(new View.OnClickListener() {
+        dg2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -51,7 +51,7 @@ public class dietasgatos extends AppCompatActivity {
             }
         });
 
-        dp3.setOnClickListener(new View.OnClickListener() {
+        dg3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -61,7 +61,7 @@ public class dietasgatos extends AppCompatActivity {
             }
         });
 
-        dp4.setOnClickListener(new View.OnClickListener() {
+        dg4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -71,7 +71,7 @@ public class dietasgatos extends AppCompatActivity {
             }
         });
 
-        dp5.setOnClickListener(new View.OnClickListener() {
+        dg5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -81,7 +81,7 @@ public class dietasgatos extends AppCompatActivity {
             }
         });
 
-        dp6.setOnClickListener(new View.OnClickListener() {
+        dg6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -91,7 +91,7 @@ public class dietasgatos extends AppCompatActivity {
             }
         });
 
-        dp7.setOnClickListener(new View.OnClickListener() {
+        dg7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -101,7 +101,7 @@ public class dietasgatos extends AppCompatActivity {
             }
         });
 
-        dp8.setOnClickListener(new View.OnClickListener() {
+        dg8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -111,7 +111,7 @@ public class dietasgatos extends AppCompatActivity {
             }
         });
 
-        dp9.setOnClickListener(new View.OnClickListener() {
+        dg9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 

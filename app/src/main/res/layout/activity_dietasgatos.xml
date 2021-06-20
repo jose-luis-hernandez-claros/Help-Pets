@@ -37,7 +37,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/dp1"
+                android:id="@+id/dg1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -46,7 +46,7 @@
                 android:textColor="#6A5454" />
 
             <Button
-                android:id="@+id/dp2"
+                android:id="@+id/dg2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -54,7 +54,7 @@
                 android:textColor="#6A5454" />
 
             <Button
-                android:id="@+id/dp3"
+                android:id="@+id/dg3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -62,7 +62,7 @@
                 android:textColor="#6A5454" />
 
             <Button
-                android:id="@+id/dp4"
+                android:id="@+id/dg4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -70,7 +70,7 @@
                 android:textColor="#6A5454" />
 
             <Button
-                android:id="@+id/dp5"
+                android:id="@+id/dg5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -78,7 +78,7 @@
                 android:textColor="#6A5454" />
 
             <Button
-                android:id="@+id/dp6"
+                android:id="@+id/dg6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -86,7 +86,7 @@
                 android:textColor="#6A5454" />
 
             <Button
-                android:id="@+id/dp7"
+                android:id="@+id/dg7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -94,7 +94,7 @@
                 android:textColor="#6A5454" />
 
             <Button
-                android:id="@+id/dp8"
+                android:id="@+id/dg8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -102,7 +102,7 @@
                 android:textColor="#6A5454" />
 
             <Button
-                android:id="@+id/dp9"
+                android:id="@+id/dg9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
