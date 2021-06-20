@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class dietasaves extends AppCompatActivity {
 
-    private Button dp1,dp2,dp3,dp4,dp5,dp6,dp7,dp8,dp9;
+    private Button da1,da2,da3,da4,da5,da6,da7,da8,da9;
     private ImageView imagencambiante;
     private TextView dietasperrostxt;
 
@@ -19,19 +19,19 @@ public class dietasaves extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dietasaves);
 
-        dp1= (Button)findViewById(R.id.dp1);
-        dp2= (Button)findViewById(R.id.dp2);
-        dp3= (Button)findViewById(R.id.dp3);
-        dp4= (Button)findViewById(R.id.dp4);
-        dp5= (Button)findViewById(R.id.dp5);
-        dp6= (Button)findViewById(R.id.dp6);
-        dp7= (Button)findViewById(R.id.dp7);
-        dp8= (Button)findViewById(R.id.dp8);
-        dp9= (Button)findViewById(R.id.dp9);
+        da1= (Button)findViewById(R.id.da1);
+        da2= (Button)findViewById(R.id.da2);
+        da3= (Button)findViewById(R.id.da3);
+        da4= (Button)findViewById(R.id.da4);
+        da5= (Button)findViewById(R.id.da5);
+        da6= (Button)findViewById(R.id.da6);
+        da7= (Button)findViewById(R.id.da7);
+        da8= (Button)findViewById(R.id.da8);
+        da9= (Button)findViewById(R.id.da9);
         imagencambiante = (ImageView)findViewById(R.id.imagencambiante);
         dietasperrostxt = (TextView) findViewById(R.id.dietasperrostxt);
 
-        dp1.setOnClickListener(new View.OnClickListener() {
+        da1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -41,7 +41,7 @@ public class dietasaves extends AppCompatActivity {
             }
         });
 
-        dp2.setOnClickListener(new View.OnClickListener() {
+        da2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -51,7 +51,7 @@ public class dietasaves extends AppCompatActivity {
             }
         });
 
-        dp3.setOnClickListener(new View.OnClickListener() {
+        da3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -61,7 +61,7 @@ public class dietasaves extends AppCompatActivity {
             }
         });
 
-        dp4.setOnClickListener(new View.OnClickListener() {
+        da4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -71,7 +71,7 @@ public class dietasaves extends AppCompatActivity {
             }
         });
 
-        dp5.setOnClickListener(new View.OnClickListener() {
+        da5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -81,7 +81,7 @@ public class dietasaves extends AppCompatActivity {
             }
         });
 
-        dp6.setOnClickListener(new View.OnClickListener() {
+        da6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -91,7 +91,7 @@ public class dietasaves extends AppCompatActivity {
             }
         });
 
-        dp7.setOnClickListener(new View.OnClickListener() {
+        da7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -101,7 +101,7 @@ public class dietasaves extends AppCompatActivity {
             }
         });
 
-        dp8.setOnClickListener(new View.OnClickListener() {
+        da8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -111,7 +111,7 @@ public class dietasaves extends AppCompatActivity {
             }
         });
 
-        dp9.setOnClickListener(new View.OnClickListener() {
+        da9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 

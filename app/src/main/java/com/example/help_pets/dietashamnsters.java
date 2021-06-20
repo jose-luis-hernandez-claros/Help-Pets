@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class dietashamnsters extends AppCompatActivity {
 
-    private Button dp1,dp2,dp3,dp4,dp5,dp6,dp7,dp8,dp9;
+    private Button dh1,dh2,dh3,dh4,dh5,dh6,dh7,dh8,dh9;
     private ImageView imagencambiante;
     private TextView dietasperrostxt;
 
@@ -18,19 +18,19 @@ public class dietashamnsters extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dietashamnsters);
-        dp1= (Button)findViewById(R.id.dp1);
-        dp2= (Button)findViewById(R.id.dp2);
-        dp3= (Button)findViewById(R.id.dp3);
-        dp4= (Button)findViewById(R.id.dp4);
-        dp5= (Button)findViewById(R.id.dp5);
-        dp6= (Button)findViewById(R.id.dp6);
-        dp7= (Button)findViewById(R.id.dp7);
-        dp8= (Button)findViewById(R.id.dp8);
-        dp9= (Button)findViewById(R.id.dp9);
+        dh1= (Button)findViewById(R.id.dh1);
+        dh2= (Button)findViewById(R.id.dh2);
+        dh3= (Button)findViewById(R.id.dh3);
+        dh4= (Button)findViewById(R.id.dh4);
+        dh5= (Button)findViewById(R.id.dh5);
+        dh6= (Button)findViewById(R.id.dh6);
+        dh7= (Button)findViewById(R.id.dh7);
+        dh8= (Button)findViewById(R.id.dh8);
+        dh9= (Button)findViewById(R.id.dh9);
         imagencambiante = (ImageView)findViewById(R.id.imagencambiante);
         dietasperrostxt = (TextView) findViewById(R.id.dietasperrostxt);
 
-        dp1.setOnClickListener(new View.OnClickListener() {
+        dh1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -40,7 +40,7 @@ public class dietashamnsters extends AppCompatActivity {
             }
         });
 
-        dp2.setOnClickListener(new View.OnClickListener() {
+        dh2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -50,7 +50,7 @@ public class dietashamnsters extends AppCompatActivity {
             }
         });
 
-        dp3.setOnClickListener(new View.OnClickListener() {
+        dh3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -60,7 +60,7 @@ public class dietashamnsters extends AppCompatActivity {
             }
         });
 
-        dp4.setOnClickListener(new View.OnClickListener() {
+        dh4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -70,7 +70,7 @@ public class dietashamnsters extends AppCompatActivity {
             }
         });
 
-        dp5.setOnClickListener(new View.OnClickListener() {
+        dh5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -80,7 +80,7 @@ public class dietashamnsters extends AppCompatActivity {
             }
         });
 
-        dp6.setOnClickListener(new View.OnClickListener() {
+        dh6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -90,7 +90,7 @@ public class dietashamnsters extends AppCompatActivity {
             }
         });
 
-        dp7.setOnClickListener(new View.OnClickListener() {
+        dh7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -100,7 +100,7 @@ public class dietashamnsters extends AppCompatActivity {
             }
         });
 
-        dp8.setOnClickListener(new View.OnClickListener() {
+        dh8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -110,7 +110,7 @@ public class dietashamnsters extends AppCompatActivity {
             }
         });
 
-        dp9.setOnClickListener(new View.OnClickListener() {
+        dh9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 

@@ -153,15 +153,43 @@
 
     <!--Dieta gato-->
     <string name="dietagato">DIETAS PARA GATOS</string>
+    <string name="dg1">Salmon</string>
+    <string name="dg2">Aceites de pescado</string>
+    <string name="dg3">Huevos cocidos</string>
+    <string name="dg4">Queso</string>
+    <string name="dg5">Pollo</string>
+    <string name="dg6">Pavo</string>
+    <string name="dg7">Vegetales variados</string>
 
     <!--Dieta ave-->
     <string name="dietaave">DIETAS PARA AVES</string>
+    <string name="da1">Brocoli</string>
+    <string name="da2">Zanahorias</string>
+    <string name="da3">Arvejas</string>
+    <string name="da4">Papaya</string>
+    <string name="da5">Mango</string>
+    <string name="da6">Manzana</string>
 
     <!--Dieta pez-->
     <string name="dietapez">DIETAS PARA PECES</string>
+    <string name="dpe1">Espinaca</string>
+    <string name="dpe2">Carnes de moluscos</string>
+    <string name="dpe3">Gusanos</string>
+    <string name="dpe4">Pescado crudo</string>
+    <string name="dpe5">Lombrices</string>
+    <string name="dpe6">Granulos</string>
 
     <!--Dieta Hamnster-->
     <string name="dietahamnster">DIETAS PARA HAMNSTERS</string>
+    <string name="dh1">ALGAS</string>
+    <string name="dh2">CALAMARES</string>
+    <string name="dh3">CARNES</string>
+    <string name="dh4">ESPIRULINA</string>
+    <string name="dh5">HUEVOS</string>
+    <string name="dh6">MELOCOTON</string>
+    <string name="dh7">MORAS</string>
+    <string name="dh8">PEPINO</string>
+    <string name="dh9">ZANAHORIAS</string>
 
 
 </resources>

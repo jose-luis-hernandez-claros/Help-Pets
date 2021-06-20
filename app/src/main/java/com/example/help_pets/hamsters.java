@@ -37,8 +37,7 @@ public class hamsters extends AppCompatActivity {
         descripcion = (TextView)findViewById(R.id.Descripcion);
         sintomas = (TextView)findViewById(R.id.Sintomas);
         cuidado = (TextView)findViewById(R.id.Cuidado);
-        representacion = (TextView)findViewById(R.id.representacion);
-        botonrepresentacion = (ImageView)findViewById(R.id.botonrepresentacion);
+
 
         eh1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,8 +45,7 @@ public class hamsters extends AppCompatActivity {
                 descripcion.setVisibility(View.VISIBLE);
                 sintomas.setVisibility(View.VISIBLE);
                 cuidado.setVisibility(View.VISIBLE);
-                representacion.setVisibility(View.VISIBLE);
-                botonrepresentacion.setVisibility(View.VISIBLE);
+
                 tv1.setText("Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
                         "ante cualquier sospecha de tener esta enfermedad es imprescindible acudir de forma inmediata al centro veterinario mas cercano." +
                         "Algunas razas de perro como el Rottweiler son mas propensos a contraer esta enfermedad.\n" +
@@ -73,7 +71,7 @@ public class hamsters extends AppCompatActivity {
                         "Transfusiones de sangre. Esto por la perdida de sangre debido a las diarreas. Una vez estabilizado, se prosigue con cuidados y monitoreo.\n" +
                         "Antibióticos.\n" +
                         "Recuerda que los tratamientos deben ser administrados por un veterinario profesional de cabecera o de confianza.");
-                botonrepresentacion.setImageResource(R.drawable.parviovirus);
+
             }
         });
 
@@ -83,8 +81,7 @@ public class hamsters extends AppCompatActivity {
                 descripcion.setVisibility(View.VISIBLE);
                 sintomas.setVisibility(View.VISIBLE);
                 cuidado.setVisibility(View.VISIBLE);
-                representacion.setVisibility(View.VISIBLE);
-                botonrepresentacion.setVisibility(View.VISIBLE);
+
                 tv1.setText("2Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
                         "ante cualquier sospecha de tener esta enfermedad es imprescindible acudir de forma inmediata al centro veterinario mas cercano." +
                         "Algunas razas de perro como el Rottweiler son mas propensos a contraer esta enfermedad.\n" +
@@ -110,7 +107,7 @@ public class hamsters extends AppCompatActivity {
                         "Transfusiones de sangre. Esto por la perdida de sangre debido a las diarreas. Una vez estabilizado, se prosigue con cuidados y monitoreo.\n" +
                         "Antibióticos.\n" +
                         "Recuerda que los tratamientos deben ser administrados por un veterinario profesional de cabecera o de confianza.");
-                botonrepresentacion.setImageResource(R.drawable.parviovirus);
+
             }
         });
 
@@ -120,8 +117,7 @@ public class hamsters extends AppCompatActivity {
                 descripcion.setVisibility(View.VISIBLE);
                 sintomas.setVisibility(View.VISIBLE);
                 cuidado.setVisibility(View.VISIBLE);
-                representacion.setVisibility(View.VISIBLE);
-                botonrepresentacion.setVisibility(View.VISIBLE);
+
                 tv1.setText("3Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
                         "ante cualquier sospecha de tener esta enfermedad es imprescindible acudir de forma inmediata al centro veterinario mas cercano." +
                         "Algunas razas de perro como el Rottweiler son mas propensos a contraer esta enfermedad.\n" +
@@ -147,7 +143,7 @@ public class hamsters extends AppCompatActivity {
                         "Transfusiones de sangre. Esto por la perdida de sangre debido a las diarreas. Una vez estabilizado, se prosigue con cuidados y monitoreo.\n" +
                         "Antibióticos.\n" +
                         "Recuerda que los tratamientos deben ser administrados por un veterinario profesional de cabecera o de confianza.");
-                botonrepresentacion.setImageResource(R.drawable.parviovirus);
+
             }
         });
 
@@ -157,8 +153,7 @@ public class hamsters extends AppCompatActivity {
                 descripcion.setVisibility(View.VISIBLE);
                 sintomas.setVisibility(View.VISIBLE);
                 cuidado.setVisibility(View.VISIBLE);
-                representacion.setVisibility(View.VISIBLE);
-                botonrepresentacion.setVisibility(View.VISIBLE);
+
                 tv1.setText("4Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
                         "ante cualquier sospecha de tener esta enfermedad es imprescindible acudir de forma inmediata al centro veterinario mas cercano." +
                         "Algunas razas de perro como el Rottweiler son mas propensos a contraer esta enfermedad.\n" +
@@ -184,7 +179,7 @@ public class hamsters extends AppCompatActivity {
                         "Transfusiones de sangre. Esto por la perdida de sangre debido a las diarreas. Una vez estabilizado, se prosigue con cuidados y monitoreo.\n" +
                         "Antibióticos.\n" +
                         "Recuerda que los tratamientos deben ser administrados por un veterinario profesional de cabecera o de confianza.");
-                botonrepresentacion.setImageResource(R.drawable.parviovirus);
+
             }
         });
 
@@ -194,8 +189,7 @@ public class hamsters extends AppCompatActivity {
                 descripcion.setVisibility(View.VISIBLE);
                 sintomas.setVisibility(View.VISIBLE);
                 cuidado.setVisibility(View.VISIBLE);
-                representacion.setVisibility(View.VISIBLE);
-                botonrepresentacion.setVisibility(View.VISIBLE);
+
                 tv1.setText("5Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
                         "ante cualquier sospecha de tener esta enfermedad es imprescindible acudir de forma inmediata al centro veterinario mas cercano." +
                         "Algunas razas de perro como el Rottweiler son mas propensos a contraer esta enfermedad.\n" +
@@ -221,7 +215,7 @@ public class hamsters extends AppCompatActivity {
                         "Transfusiones de sangre. Esto por la perdida de sangre debido a las diarreas. Una vez estabilizado, se prosigue con cuidados y monitoreo.\n" +
                         "Antibióticos.\n" +
                         "Recuerda que los tratamientos deben ser administrados por un veterinario profesional de cabecera o de confianza.");
-                botonrepresentacion.setImageResource(R.drawable.parviovirus);
+
             }
         });
 
@@ -231,8 +225,7 @@ public class hamsters extends AppCompatActivity {
                 descripcion.setVisibility(View.VISIBLE);
                 sintomas.setVisibility(View.VISIBLE);
                 cuidado.setVisibility(View.VISIBLE);
-                representacion.setVisibility(View.VISIBLE);
-                botonrepresentacion.setVisibility(View.VISIBLE);
+
                 tv1.setText("6Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
                         "ante cualquier sospecha de tener esta enfermedad es imprescindible acudir de forma inmediata al centro veterinario mas cercano." +
                         "Algunas razas de perro como el Rottweiler son mas propensos a contraer esta enfermedad.\n" +
@@ -258,7 +251,7 @@ public class hamsters extends AppCompatActivity {
                         "Transfusiones de sangre. Esto por la perdida de sangre debido a las diarreas. Una vez estabilizado, se prosigue con cuidados y monitoreo.\n" +
                         "Antibióticos.\n" +
                         "Recuerda que los tratamientos deben ser administrados por un veterinario profesional de cabecera o de confianza.");
-                botonrepresentacion.setImageResource(R.drawable.parviovirus);
+
             }
         });
 
@@ -268,8 +261,7 @@ public class hamsters extends AppCompatActivity {
                 descripcion.setVisibility(View.VISIBLE);
                 sintomas.setVisibility(View.VISIBLE);
                 cuidado.setVisibility(View.VISIBLE);
-                representacion.setVisibility(View.VISIBLE);
-                botonrepresentacion.setVisibility(View.VISIBLE);
+
                 tv1.setText("7Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
                         "ante cualquier sospecha de tener esta enfermedad es imprescindible acudir de forma inmediata al centro veterinario mas cercano." +
                         "Algunas razas de perro como el Rottweiler son mas propensos a contraer esta enfermedad.\n" +
@@ -295,7 +287,7 @@ public class hamsters extends AppCompatActivity {
                         "Transfusiones de sangre. Esto por la perdida de sangre debido a las diarreas. Una vez estabilizado, se prosigue con cuidados y monitoreo.\n" +
                         "Antibióticos.\n" +
                         "Recuerda que los tratamientos deben ser administrados por un veterinario profesional de cabecera o de confianza.");
-                botonrepresentacion.setImageResource(R.drawable.parviovirus);
+
             }
         });
 
@@ -305,8 +297,7 @@ public class hamsters extends AppCompatActivity {
                 descripcion.setVisibility(View.VISIBLE);
                 sintomas.setVisibility(View.VISIBLE);
                 cuidado.setVisibility(View.VISIBLE);
-                representacion.setVisibility(View.VISIBLE);
-                botonrepresentacion.setVisibility(View.VISIBLE);
+
                 tv1.setText("8Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
                         "ante cualquier sospecha de tener esta enfermedad es imprescindible acudir de forma inmediata al centro veterinario mas cercano." +
                         "Algunas razas de perro como el Rottweiler son mas propensos a contraer esta enfermedad.\n" +
@@ -332,7 +323,7 @@ public class hamsters extends AppCompatActivity {
                         "Transfusiones de sangre. Esto por la perdida de sangre debido a las diarreas. Una vez estabilizado, se prosigue con cuidados y monitoreo.\n" +
                         "Antibióticos.\n" +
                         "Recuerda que los tratamientos deben ser administrados por un veterinario profesional de cabecera o de confianza.");
-                botonrepresentacion.setImageResource(R.drawable.parviovirus);
+
             }
         });
 
@@ -342,8 +333,7 @@ public class hamsters extends AppCompatActivity {
                 descripcion.setVisibility(View.VISIBLE);
                 sintomas.setVisibility(View.VISIBLE);
                 cuidado.setVisibility(View.VISIBLE);
-                representacion.setVisibility(View.VISIBLE);
-                botonrepresentacion.setVisibility(View.VISIBLE);
+
                 tv1.setText("9Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
                         "ante cualquier sospecha de tener esta enfermedad es imprescindible acudir de forma inmediata al centro veterinario mas cercano." +
                         "Algunas razas de perro como el Rottweiler son mas propensos a contraer esta enfermedad.\n" +
@@ -369,7 +359,7 @@ public class hamsters extends AppCompatActivity {
                         "Transfusiones de sangre. Esto por la perdida de sangre debido a las diarreas. Una vez estabilizado, se prosigue con cuidados y monitoreo.\n" +
                         "Antibióticos.\n" +
                         "Recuerda que los tratamientos deben ser administrados por un veterinario profesional de cabecera o de confianza.");
-                botonrepresentacion.setImageResource(R.drawable.parviovirus);
+
             }
         });
 
