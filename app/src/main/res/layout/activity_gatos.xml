@@ -44,101 +44,77 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/ep1"
+                android:id="@+id/eg1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
-                android:text="@string/ep1"
+                android:text="@string/eg1"
                 android:textColor="#6A5454" />
 
             <Button
-                android:id="@+id/ep2"
+                android:id="@+id/eg2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
-                android:onClick="ep2"
-                android:text="@string/ep2"
+                android:text="@string/eg2"
                 android:textColor="#6A5454" />
 
             <Button
-                android:id="@+id/ep3"
+                android:id="@+id/eg3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep3" />
+                android:text="@string/eg3" />
 
             <Button
-                android:id="@+id/ep4"
+                android:id="@+id/eg4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep4" />
+                android:text="@string/eg4" />
 
             <Button
-                android:id="@+id/ep5"
+                android:id="@+id/eg5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep5" />
+                android:text="@string/eg5" />
 
             <Button
-                android:id="@+id/ep6"
+                android:id="@+id/eg6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep6" />
+                android:text="@string/eg6" />
 
             <Button
-                android:id="@+id/ep7"
+                android:id="@+id/eg7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep7" />
+                android:text="@string/eg7" />
 
             <Button
-                android:id="@+id/ep8"
+                android:id="@+id/eg8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep8" />
+                android:text="@string/eg8" />
 
             <Button
-                android:id="@+id/ep9"
+                android:id="@+id/eg9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep9" />
+                android:text="@string/eg9" />
 
-            <Button
-                android:id="@+id/ep10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#ECCDCD"
-                android:textColor="#6A5454"
-                android:text="@string/ep10" />
-
-            <Button
-                android:id="@+id/ep11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#ECCDCD"
-                android:textColor="#6A5454"
-                android:text="@string/ep11" />
-
-            <Button
-                android:id="@+id/ep12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#ECCDCD"
-                android:textColor="#6A5454"
-                android:text="@string/ep12" />
         </LinearLayout>
     </HorizontalScrollView>
 

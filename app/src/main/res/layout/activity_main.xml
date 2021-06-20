@@ -41,7 +41,7 @@
                 android:layout_weight="2"
                 android:backgroundTint="@color/purple_700"
                 android:contentDescription="@string/botonesprincipales"
-                android:onClick="maps"
+                android:onClick="mapasintent"
                 app:srcCompat="@drawable/ubicacion" />
         </TableRow>
 

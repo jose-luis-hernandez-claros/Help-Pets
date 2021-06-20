@@ -48,7 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
-                android:text="@string/ep1"
+                android:text="@string/epe1"
                 android:textColor="#6A5454" />
 
             <Button
@@ -56,8 +56,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
-                android:onClick="ep2"
-                android:text="@string/ep2"
+                android:text="@string/epe2"
                 android:textColor="#6A5454" />
 
             <Button
@@ -66,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep3" />
+                android:text="@string/epe3" />
 
             <Button
                 android:id="@+id/ep4"
@@ -74,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep4" />
+                android:text="@string/epe4" />
 
             <Button
                 android:id="@+id/ep5"
@@ -82,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep5" />
+                android:text="@string/epe5" />
 
             <Button
                 android:id="@+id/ep6"
@@ -90,7 +89,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep6" />
+                android:text="@string/epe6" />
 
             <Button
                 android:id="@+id/ep7"
@@ -98,7 +97,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep7" />
+                android:text="@string/epe7" />
 
             <Button
                 android:id="@+id/ep8"
@@ -106,7 +105,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep8" />
+                android:text="@string/epe8" />
 
             <Button
                 android:id="@+id/ep9"
@@ -114,7 +113,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep9" />
+                android:text="@string/epe9" />
 
             <Button
                 android:id="@+id/ep10"
@@ -122,7 +121,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep10" />
+                android:text="@string/epe10" />
 
             <Button
                 android:id="@+id/ep11"
@@ -130,15 +129,8 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="#ECCDCD"
                 android:textColor="#6A5454"
-                android:text="@string/ep11" />
+                android:text="@string/epe11" />
 
-            <Button
-                android:id="@+id/ep12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#ECCDCD"
-                android:textColor="#6A5454"
-                android:text="@string/ep12" />
         </LinearLayout>
     </HorizontalScrollView>
 

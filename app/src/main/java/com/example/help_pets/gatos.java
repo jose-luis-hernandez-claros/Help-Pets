@@ -11,7 +11,7 @@ import android.widget.TextView;
 public class gatos extends AppCompatActivity {
 
     private TextView tv1,tv2,tv3,descripcion,sintomas,cuidado,representacion;
-    private Button ep1,ep2,ep3,ep4,ep5,ep6,ep7,ep8,ep9,ep10,ep11,ep12;
+    private Button eg1,eg2,eg3,eg4,eg5,eg6,eg7,eg8,eg9;
     private ImageView botonrepresentacion;
 
     @Override
@@ -19,18 +19,15 @@ public class gatos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gatos);
 
-        ep1 = (Button)findViewById(R.id.ep1);
-        ep2 = (Button)findViewById(R.id.ep2);
-        ep3 = (Button)findViewById(R.id.ep3);
-        ep4 = (Button)findViewById(R.id.ep4);
-        ep5 = (Button)findViewById(R.id.ep5);
-        ep6 = (Button)findViewById(R.id.ep6);
-        ep7 = (Button)findViewById(R.id.ep7);
-        ep8 = (Button)findViewById(R.id.ep8);
-        ep9 = (Button)findViewById(R.id.ep9);
-        ep10 = (Button)findViewById(R.id.ep10);
-        ep11 = (Button)findViewById(R.id.ep11);
-        ep12 = (Button)findViewById(R.id.ep12);
+        eg1 = (Button)findViewById(R.id.eg1);
+        eg2 = (Button)findViewById(R.id.eg2);
+        eg3 = (Button)findViewById(R.id.eg3);
+        eg4 = (Button)findViewById(R.id.eg4);
+        eg5 = (Button)findViewById(R.id.eg5);
+        eg6 = (Button)findViewById(R.id.eg6);
+        eg7 = (Button)findViewById(R.id.eg7);
+        eg8 = (Button)findViewById(R.id.eg8);
+        eg9 = (Button)findViewById(R.id.eg9);
 
         tv1 = (TextView)findViewById(R.id.tv1);
         tv2 = (TextView)findViewById(R.id.tv2);
@@ -41,7 +38,7 @@ public class gatos extends AppCompatActivity {
         representacion = (TextView)findViewById(R.id.representacion);
         botonrepresentacion = (ImageView)findViewById(R.id.botonrepresentacion);
 
-        ep1.setOnClickListener(new View.OnClickListener() {
+        eg1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 descripcion.setVisibility(View.VISIBLE);
@@ -49,7 +46,7 @@ public class gatos extends AppCompatActivity {
                 cuidado.setVisibility(View.VISIBLE);
                 representacion.setVisibility(View.VISIBLE);
                 botonrepresentacion.setVisibility(View.VISIBLE);
-                tv1.setText("Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
+                tv1.setText("gatos Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
                         "ante cualquier sospecha de tener esta enfermedad es imprescindible acudir de forma inmediata al centro veterinario mas cercano." +
                         "Algunas razas de perro como el Rottweiler son mas propensos a contraer esta enfermedad.\n" +
                         "El Parvovirus se contagia mediante contacto oral/nasal directo de un perro infectado a otro perro," +
@@ -78,7 +75,7 @@ public class gatos extends AppCompatActivity {
             }
         });
 
-        ep2.setOnClickListener(new View.OnClickListener() {
+        eg2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 descripcion.setVisibility(View.VISIBLE);
@@ -115,7 +112,7 @@ public class gatos extends AppCompatActivity {
             }
         });
 
-        ep3.setOnClickListener(new View.OnClickListener() {
+        eg3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 descripcion.setVisibility(View.VISIBLE);
@@ -152,7 +149,7 @@ public class gatos extends AppCompatActivity {
             }
         });
 
-        ep4.setOnClickListener(new View.OnClickListener() {
+        eg4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 descripcion.setVisibility(View.VISIBLE);
@@ -189,7 +186,7 @@ public class gatos extends AppCompatActivity {
             }
         });
 
-        ep5.setOnClickListener(new View.OnClickListener() {
+        eg5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 descripcion.setVisibility(View.VISIBLE);
@@ -226,7 +223,7 @@ public class gatos extends AppCompatActivity {
             }
         });
 
-        ep6.setOnClickListener(new View.OnClickListener() {
+        eg6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 descripcion.setVisibility(View.VISIBLE);
@@ -263,7 +260,7 @@ public class gatos extends AppCompatActivity {
             }
         });
 
-        ep7.setOnClickListener(new View.OnClickListener() {
+        eg7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 descripcion.setVisibility(View.VISIBLE);
@@ -300,7 +297,7 @@ public class gatos extends AppCompatActivity {
             }
         });
 
-        ep8.setOnClickListener(new View.OnClickListener() {
+        eg8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 descripcion.setVisibility(View.VISIBLE);
@@ -337,7 +334,7 @@ public class gatos extends AppCompatActivity {
             }
         });
 
-        ep9.setOnClickListener(new View.OnClickListener() {
+        eg9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 descripcion.setVisibility(View.VISIBLE);
@@ -374,116 +371,6 @@ public class gatos extends AppCompatActivity {
             }
         });
 
-        ep10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                descripcion.setVisibility(View.VISIBLE);
-                sintomas.setVisibility(View.VISIBLE);
-                cuidado.setVisibility(View.VISIBLE);
-                representacion.setVisibility(View.VISIBLE);
-                botonrepresentacion.setVisibility(View.VISIBLE);
-                tv1.setText("10Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
-                        "ante cualquier sospecha de tener esta enfermedad es imprescindible acudir de forma inmediata al centro veterinario mas cercano." +
-                        "Algunas razas de perro como el Rottweiler son mas propensos a contraer esta enfermedad.\n" +
-                        "El Parvovirus se contagia mediante contacto oral/nasal directo de un perro infectado a otro perro," +
-                        " a través de las heces de perros infectados con el canino\n" +
-                        "Es considerado un virus muy contagioso y tiene un periodo de incubación corto (entre cinco y diez días)");
-
-                tv2.setText("10Esta enfermedad por lo general ataca al tejido linfatico e intastinal. Los principales sintomas que produce esta enfermedad son:\n" +
-                        "Diarrea (que suele ir acompañada de hemorragia)\n" +
-                        "Vómitos\n" +
-                        "Fiebre\n" +
-                        "Falta de apetito y decaimiento.\n" +
-                        "Apatía y/o letargo.\n" +
-                        "Depresión\n" +
-                        "Pérdida de peso.\n" +
-                        "Dolor a la palpación de abdomen.\n" +
-                        "En casos más graves, deshidratación (más o menos severa, ya que el virus afecta al tracto intestinal) y muerte del paciente.");
-
-                tv3.setText("10No existe un tratamiento 100% efectivo del parviovirus, sin embargo, existen pasos a seguir para poder combatirla y tener mejor resultados o en su caso, " +
-                        "eliminar totalmente el virus.\n" +
-                        "\n" +
-                        "Rehidratación. Normalmente se recomienda una administración de suero por vía intravenosa.\n" +
-                        "Transfusiones de sangre. Esto por la perdida de sangre debido a las diarreas. Una vez estabilizado, se prosigue con cuidados y monitoreo.\n" +
-                        "Antibióticos.\n" +
-                        "Recuerda que los tratamientos deben ser administrados por un veterinario profesional de cabecera o de confianza.");
-                botonrepresentacion.setImageResource(R.drawable.parviovirus);
-            }
-        });
-
-        ep11.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                descripcion.setVisibility(View.VISIBLE);
-                sintomas.setVisibility(View.VISIBLE);
-                cuidado.setVisibility(View.VISIBLE);
-                representacion.setVisibility(View.VISIBLE);
-                botonrepresentacion.setVisibility(View.VISIBLE);
-                tv1.setText("11Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
-                        "ante cualquier sospecha de tener esta enfermedad es imprescindible acudir de forma inmediata al centro veterinario mas cercano." +
-                        "Algunas razas de perro como el Rottweiler son mas propensos a contraer esta enfermedad.\n" +
-                        "El Parvovirus se contagia mediante contacto oral/nasal directo de un perro infectado a otro perro," +
-                        " a través de las heces de perros infectados con el canino\n" +
-                        "Es considerado un virus muy contagioso y tiene un periodo de incubación corto (entre cinco y diez días)");
-
-                tv2.setText("11Esta enfermedad por lo general ataca al tejido linfatico e intastinal. Los principales sintomas que produce esta enfermedad son:\n" +
-                        "Diarrea (que suele ir acompañada de hemorragia)\n" +
-                        "Vómitos\n" +
-                        "Fiebre\n" +
-                        "Falta de apetito y decaimiento.\n" +
-                        "Apatía y/o letargo.\n" +
-                        "Depresión\n" +
-                        "Pérdida de peso.\n" +
-                        "Dolor a la palpación de abdomen.\n" +
-                        "En casos más graves, deshidratación (más o menos severa, ya que el virus afecta al tracto intestinal) y muerte del paciente.");
-
-                tv3.setText("11No existe un tratamiento 100% efectivo del parviovirus, sin embargo, existen pasos a seguir para poder combatirla y tener mejor resultados o en su caso, " +
-                        "eliminar totalmente el virus.\n" +
-                        "\n" +
-                        "Rehidratación. Normalmente se recomienda una administración de suero por vía intravenosa.\n" +
-                        "Transfusiones de sangre. Esto por la perdida de sangre debido a las diarreas. Una vez estabilizado, se prosigue con cuidados y monitoreo.\n" +
-                        "Antibióticos.\n" +
-                        "Recuerda que los tratamientos deben ser administrados por un veterinario profesional de cabecera o de confianza.");
-                botonrepresentacion.setImageResource(R.drawable.parviovirus);
-            }
-        });
-
-        ep12.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                descripcion.setVisibility(View.VISIBLE);
-                sintomas.setVisibility(View.VISIBLE);
-                cuidado.setVisibility(View.VISIBLE);
-                representacion.setVisibility(View.VISIBLE);
-                botonrepresentacion.setVisibility(View.VISIBLE);
-                tv1.setText("12Es una enfermedad infecciosa, de tipo vírica, grave y potencialmente letal." +
-                        "ante cualquier sospecha de tener esta enfermedad es imprescindible acudir de forma inmediata al centro veterinario mas cercano." +
-                        "Algunas razas de perro como el Rottweiler son mas propensos a contraer esta enfermedad.\n" +
-                        "El Parvovirus se contagia mediante contacto oral/nasal directo de un perro infectado a otro perro," +
-                        " a través de las heces de perros infectados con el canino\n" +
-                        "Es considerado un virus muy contagioso y tiene un periodo de incubación corto (entre cinco y diez días)");
-
-                tv2.setText("12Esta enfermedad por lo general ataca al tejido linfatico e intastinal. Los principales sintomas que produce esta enfermedad son:\n" +
-                        "Diarrea (que suele ir acompañada de hemorragia)\n" +
-                        "Vómitos\n" +
-                        "Fiebre\n" +
-                        "Falta de apetito y decaimiento.\n" +
-                        "Apatía y/o letargo.\n" +
-                        "Depresión\n" +
-                        "Pérdida de peso.\n" +
-                        "Dolor a la palpación de abdomen.\n" +
-                        "En casos más graves, deshidratación (más o menos severa, ya que el virus afecta al tracto intestinal) y muerte del paciente.");
-
-                tv3.setText("12No existe un tratamiento 100% efectivo del parviovirus, sin embargo, existen pasos a seguir para poder combatirla y tener mejor resultados o en su caso, " +
-                        "eliminar totalmente el virus.\n" +
-                        "\n" +
-                        "Rehidratación. Normalmente se recomienda una administración de suero por vía intravenosa.\n" +
-                        "Transfusiones de sangre. Esto por la perdida de sangre debido a las diarreas. Una vez estabilizado, se prosigue con cuidados y monitoreo.\n" +
-                        "Antibióticos.\n" +
-                        "Recuerda que los tratamientos deben ser administrados por un veterinario profesional de cabecera o de confianza.");
-                botonrepresentacion.setImageResource(R.drawable.parviovirus);
-            }
-        });
 
 
     }

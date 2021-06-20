@@ -3,6 +3,7 @@ package com.example.help_pets;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
@@ -51,6 +52,15 @@ public class MainActivity extends AppCompatActivity {
     public void alertaayuda(View view){
         Intent Aayuda = new Intent(this,com.example.help_pets.alertaayuda.class);
         startActivity(Aayuda);
+    }
+
+
+
+    public void mapasintent(View view){
+        String veter = "veterinarias";
+        Uri location = Uri.parse("geo:0,0?q="+veter);
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, location);
+        startActivity(mapIntent);
     }
 
 }

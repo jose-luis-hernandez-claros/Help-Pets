@@ -21,6 +21,15 @@
     <string name="pedirayuda2">PEDIR AYUDA</string>
 
 
+
+
+    <string name="seleccione">SELECCIONE UNA ENFERMEDAD DE LA LISTA</string>
+
+    <string name="descripcion">DESCRIPCION</string>
+    <string name="sintomas">SINTOMAS</string>
+    <string name="cuidado">TRATAMIENTO</string>
+    <string name="representacion">REPRESENTACION</string>
+
     <!--Enfermedades Perros-->
     <string name="enfperros">Enfermedades De Perros</string>
     <string name="ep1">Parviovirus</string>
@@ -36,25 +45,55 @@
     <string name="ep11">Hepatitis</string>
     <string name="ep12">Rabia</string>
 
-    <string name="seleccione">SELECCIONE UNA ENFERMEDAD DE LA LISTA</string>
-
-    <string name="descripcion">DESCRIPCION</string>
-    <string name="sintomas">SINTOMAS</string>
-    <string name="cuidado">TRATAMIENTO</string>
-    <string name="representacion">REPRESENTACION</string>
-
     <!--Enfermedades Gatos-->
     <string name="enfgatos">Enfermedades De Gatos</string>
+    <string name="eg1">Leucemia</string>
+    <string name="eg2">Panleucopenia</string>
+    <string name="eg3">Insuficiencia renal</string>
+    <string name="eg4">Inmunodeficiencia</string>
+    <string name="eg5">Otitis</string>
+    <string name="eg6">Conjuntivitis</string>
+    <string name="eg7">Rabia</string>
+    <string name="eg8">Peritonitis</string>
+    <string name="eg9">Cistitis</string>
 
     <!--Enfermedades Aves-->
     <string name="enfaves">Enfermedades De Aves</string>
+    <string name="ea1">Colera</string>
+    <string name="ea2">Coriza</string>
+    <string name="ea3">Bronquitis</string>
+    <string name="ea4">Encefalomielitis</string>
+    <string name="ea5">Influenza</string>
+    <string name="ea6">Bursitis</string>
+    <string name="ea7">Enfermedad de marek</string>
+    <string name="ea8">New castle</string>
+    <string name="ea9">Viruela</string>
 
     <!--Enfermedades Peces-->
     <string name="enfpeces">Enfermedades De Peces</string>
+    <string name="epe1">Hidropesia</string>
+    <string name="epe2">Terciopelo</string>
+    <string name="epe3">Gusano lernaea</string>
+    <string name="epe4">Punto blanco</string>
+    <string name="epe5">Dactylogyrus</string>
+    <string name="epe6">Baba en la piel</string>
+    <string name="epe7">Estreñimiento</string>
+    <string name="epe8">Parasitos intestinales</string>
+    <string name="epe9">Exophthalmia</string>
+    <string name="epe10">Hexamiatiasis</string>
+    <string name="epe11">Vejiga natatoria</string>
 
     <!--Enfermedades Hamsters-->
     <string name="enfhamnsters">Enfermedades De Hamnsters</string>
-
+    <string name="eh1">Diabetes</string>
+    <string name="eh2">Cola mojada</string>
+    <string name="eh3">Acaros</string>
+    <string name="eh4">Tiña</string>
+    <string name="eh5">Conjuntivitis</string>
+    <string name="eh6">Estreñimiento</string>
+    <string name="eh7">Calculos en la vejuiga</string>
+    <string name="eh8">Cataratas</string>
+    <string name="eh9">Abscesos</string>
 
     <!--Registro Mascotas-->
     <string name="registromascotas2">REGISTRO DE MASCOTAS</string>
