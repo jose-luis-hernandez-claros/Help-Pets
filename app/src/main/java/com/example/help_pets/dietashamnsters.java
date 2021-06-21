@@ -32,7 +32,7 @@ public class dietashamnsters extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.zanahorias);
                 dietasperrostxt.setText("Zanahoria. La parte más beneficiosa de este alimento es la hoja, por lo que es ideal proporcionar a nuestro hámster las hojas de las zanahorias lavadas y troceadas de vez en cuando. El fruto en sí," +
                         " solo podremos dárselo sin piel y troceado en cantidades pequeñas para fortalecer sus dientes y mandíbula.");
             }
@@ -43,7 +43,7 @@ public class dietashamnsters extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.nueces);
                 dietasperrostxt.setText("Evitar la alimentación con demasiadas nueces o semillas a un hámster enano. Las nueces y semillas son alimentos muy grasos y pueden causar una condición conocida como “fuego” en un hámster enano, " +
                         "que puede resultar en la pérdida de pelo. Una o dos semillas cada dos días es probablemente suficiente si tu hámster es un enano.");
             }
@@ -54,7 +54,7 @@ public class dietashamnsters extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.cebada);
                 dietasperrostxt.setText("Es rica en fósforo, potasio y ácidos grasos insaturados, es decir, grasas saludables. Es una buena fuente de fibra β-glucan," +
                         " la cual se asocia con múltiples beneficios a la salud como reducir el riesgo de enfermedades cardiacas.");
             }
@@ -65,7 +65,7 @@ public class dietashamnsters extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.espinaca);
                 dietasperrostxt.setText("Las espinacas son altamente beneficiosas a la hora de regular el tránsito intestinal. Asimismo, son una gran fuente de fibra y cuenta con propiedades antioxidantes y una ausencia de grasas," +
                         " imprescindible para mantener la salud de nuestro hámster en perfectas condiciones.");
             }
@@ -76,7 +76,7 @@ public class dietashamnsters extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.avellanas);
                 dietasperrostxt.setText("Son una buena fuente de minerales como calcio, fósforo y magnesio, indispensables para el crecimiento, así como de manganeso.");
             }
         });

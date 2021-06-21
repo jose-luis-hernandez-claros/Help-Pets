@@ -30,7 +30,7 @@ public class dietaspeces extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.espinaca);
                 dietasperrostxt.setText("Las espinacas es una de las verduras que por todas sus cualidades y aportes que posee podemos añadir perfectamente a las papillas que elaboramos en casa para los peces de nuestros acuarios. Muy bien lavadas, " +
                         "bien crudas o cocidas, es un buen complemento para la dieta de los peces.");
             }
@@ -41,7 +41,7 @@ public class dietaspeces extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.mejillon);
                 dietasperrostxt.setText("Un molusco que pueden comer los peces es el mejillón" +
                         " que cuenta con de fósforo, zinc y manganeso como beneficios, también contiene una buena cantidad de yodo que favorece el metabolismo.");
             }
@@ -52,7 +52,7 @@ public class dietaspeces extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.granulo);
                 dietasperrostxt.setText("Los gránulos y los pellets flotan en el agua y ensucian menos que las escamas. Son los ideales para peces que se alimentan en la zona media del acuario, o los del fondo del acuario, ya que se hunden más rápidamente.\n" +
                         "Los alimentos en gránulos son los ideales para dispensadores automáticos, ya que se obstruyen menos que las escamas.");
             }

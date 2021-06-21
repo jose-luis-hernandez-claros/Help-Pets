@@ -31,7 +31,7 @@ public class dietasaves extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.brocoli);
                 dietasperrostxt.setText("Mejora la digestión y el tránsito intestinal:\n" +
                         "El gran aporte de fibras del brócoli también ayuda a mejorar el tránsito intestinal y" +
                         "actúa como un remedio natural para el estreñimiento, un problema frecuente en las aves domésticas.");
@@ -43,7 +43,7 @@ public class dietasaves extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.zanahorias);
                 dietasperrostxt.setText("La zanahoria aporta una gran cantidad de vitaminas y minerales entre los cuales se destaca la vitamina A" +
                         "El aporte de la vitamina A previene la aparición de problemas oculares en las aves y el desarrollo de algunas enfermedades.");
             }
@@ -54,7 +54,7 @@ public class dietasaves extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.alverjas);
                 dietasperrostxt.setText("El grano de la arveja proteica se compone principalmente de almidón y proteínas, los cuales son altamente digeribles." +
                         "La fibra cruda está contenida principalmente en la cubierta de la semilla." +
                         "el grano de arveja es intermedio entre los cereales y la soja");
@@ -66,7 +66,7 @@ public class dietasaves extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.manzanas);
                 dietasperrostxt.setText("Esta fruta les aporta vitaminas, minerales naturales como vitaminas A, B1 y B2, también minerales como calcio, fósforo y magnesio." +
                         " Posee  magníficas propiedades anti-hepática el cual las regula.");
             }

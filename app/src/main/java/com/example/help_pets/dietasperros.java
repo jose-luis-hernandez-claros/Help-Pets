@@ -37,7 +37,7 @@ public class dietasperros extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.carne);
                 dietasperrostxt.setText("Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
                         "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
             }
@@ -48,7 +48,7 @@ public class dietasperros extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.algasmarinas);
                 dietasperrostxt.setText("Las algas marinas, como clase de plantas, tienen el espectro más amplio de oligoelementos y vitaminas que de cualquier grupo de plantas en el mundo. " +
                         "Como tales, se prestan a ser una muy buena fuente natural de multivitaminas y minerales.\n" +
                         "La razón por la que contienen esta amplia gama de nutrientes, se debe a su capacidad de absorber minerales directamente del agua, del océano. " +
@@ -62,7 +62,7 @@ public class dietasperros extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.calamares);
                 dietasperrostxt.setText("Es recomendable no dar muchos calamares ademas es recomendable" +
                         " añadirlos crudos a su comida. Tienen buena proporción de proteína y son bastante magros. Como máximo, una vez a la semana en sustitución de la carne en su dieta es una buena medida.");
             }
@@ -73,7 +73,7 @@ public class dietasperros extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.espirulina);
                 dietasperrostxt.setText("Cuando el sistema inmunitario está estresado o sufre, se nutre de la energía metabólica del propio cuerpo.\n" +
                         "Los perros con un desequilibrio en el sistema inmunitario a menudo presentan fatiga crónica y falta de energía.\n" +
                         "Pequeñas cantidades de Espirulina pueden ayudar a balancear y estabilizarlo, liberando más energía metabólica y produciendo más vitalidad, salud y aprovechamiento de nutrientes.");
@@ -85,7 +85,7 @@ public class dietasperros extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.huevos);
                 dietasperrostxt.setText("Fuente de proteína, grasa, vitaminas, incluso calcio y no solo por el presente en la cáscara, también lo está en la yema.");
             }
         });
@@ -95,7 +95,7 @@ public class dietasperros extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.melocoton);
                 dietasperrostxt.setText("Los melocotones son una fruta sana y tu perro puede beneficiarse de los altos niveles de fibra y hierro." +
                         "\n" +
                         "Fibra soluble: favorecerá la regulación del tránsito intestinal.\n" +
@@ -109,7 +109,7 @@ public class dietasperros extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.moras);
                 dietasperrostxt.setText("Los frutos rojos como las moras silvestres son “bombitas” de antioxidantes que combaten los radicales libres responsables del proceso de envejecimiento canino.\n" +
                         "Las moras tienen un montón de vitaminas A, C, B6, B12, K, E… También son ricas en potasio, magnesio, calcio, fósforo…\n" +
                         "La fibra está muy presente en cada pequeña mora que disfrutará tu peludo, una fibra alimentaria que le ayudará a mantener en plena forma su aparato digestivo.");
@@ -121,7 +121,7 @@ public class dietasperros extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.pepino);
                 dietasperrostxt.setText("El pepino es, sin duda, un vegetal que tiene mucho que aportar a los canes. Para empezar, recomendamos lavar la cascara y trocear el pepino para facilitarle las cosas al compañero peludo.\n" +
                         "Este alimento aporta fibra y agua al animal, además de antioxidantes como la vitamina C y diversas vitaminas más. El potasio también pertenece a la composición de este vegetal que reduce, " +
                         "aparte de la diarrea, la presión arterial del can.8Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
@@ -134,7 +134,7 @@ public class dietasperros extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
+                imagencambiante.setImageResource(R.drawable.zanahorias);
                 dietasperrostxt.setText("Fuente natural de carbohidratos\n" +
                         "Los carbohidratos proporcionan al perro una gran cantidad de energía y, por ende, son esenciales en su alimentación." +
                         " Una dieta pobre en hidratos de carbono se refleja en la salud del animal, desarrollando patologías y trastornos que pueden llegar a ser graves" +
