@@ -52,6 +52,8 @@ public class perros extends AppCompatActivity {
 //        representacion = (TextView)findViewById(R.id.representacion);
 //        botonrepresentacion = (ImageView)findViewById(R.id.botonrepresentacion);
 
+        
+        //parviovirus
         ep1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -89,6 +91,8 @@ public class perros extends AppCompatActivity {
             }
         });
 
+
+        //moquillo
         ep2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -125,6 +129,8 @@ public class perros extends AppCompatActivity {
             }
         });
 
+
+        //artrosis
         ep3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -161,6 +167,8 @@ public class perros extends AppCompatActivity {
             }
         });
 
+
+        //otitis
         ep4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -197,6 +205,8 @@ public class perros extends AppCompatActivity {
             }
         });
 
+
+        //leishmaniosis
         ep5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -233,6 +243,8 @@ public class perros extends AppCompatActivity {
             }
         });
 
+
+        //gusano del corazon
         ep6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -269,6 +281,8 @@ public class perros extends AppCompatActivity {
             }
         });
 
+
+        //tos de las perreras
         ep7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -305,6 +319,8 @@ public class perros extends AppCompatActivity {
             }
         });
 
+
+        //problemas urinarios
         ep8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -341,6 +357,8 @@ public class perros extends AppCompatActivity {
             }
         });
 
+
+        //problemas digestivos
         ep9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -377,6 +395,8 @@ public class perros extends AppCompatActivity {
             }
         });
 
+
+        //problemas de piel
         ep10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -413,6 +433,8 @@ public class perros extends AppCompatActivity {
             }
         });
 
+
+        //hepatitis
         ep11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -449,6 +471,8 @@ public class perros extends AppCompatActivity {
             }
         });
 
+
+        //rabia
         ep12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

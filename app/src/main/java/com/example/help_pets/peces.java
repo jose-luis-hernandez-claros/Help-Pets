@@ -40,7 +40,7 @@ public class peces extends AppCompatActivity {
         sintomas = (TextView)findViewById(R.id.Sintomas);
         cuidado = (TextView)findViewById(R.id.Cuidado);
 
-
+        //hidropesia
         epe1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -76,6 +76,8 @@ public class peces extends AppCompatActivity {
             }
         });
 
+
+        //terciopelo
         epe2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -111,6 +113,8 @@ public class peces extends AppCompatActivity {
             }
         });
 
+
+        //gusano lernaea
         epe3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -146,6 +150,8 @@ public class peces extends AppCompatActivity {
             }
         });
 
+
+        //punto blanco
         epe4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -181,6 +187,8 @@ public class peces extends AppCompatActivity {
             }
         });
 
+
+        //dactylogyrus
         epe5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -215,6 +223,8 @@ public class peces extends AppCompatActivity {
             }
         });
 
+
+        //baba en la piel
         epe6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -250,6 +260,8 @@ public class peces extends AppCompatActivity {
             }
         });
 
+
+        //estreñimiento
         epe7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -285,6 +297,8 @@ public class peces extends AppCompatActivity {
             }
         });
 
+
+        //parasitos intestinales
         epe8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -320,6 +334,8 @@ public class peces extends AppCompatActivity {
             }
         });
 
+
+        //exophthalmia
         epe9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -355,6 +371,8 @@ public class peces extends AppCompatActivity {
             }
         });
 
+
+        //hexamiatiasis
         epe10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -390,6 +408,8 @@ public class peces extends AppCompatActivity {
             }
         });
 
+
+        //vejiga natatoria
         epe11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

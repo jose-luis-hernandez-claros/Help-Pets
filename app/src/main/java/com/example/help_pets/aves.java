@@ -36,7 +36,7 @@ public class aves extends AppCompatActivity {
         sintomas = (TextView)findViewById(R.id.Sintomas);
         cuidado = (TextView)findViewById(R.id.Cuidado);
 
-
+        //colera
         ea1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,6 +73,8 @@ public class aves extends AppCompatActivity {
             }
         });
 
+
+        //coriza
         ea2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -109,6 +111,8 @@ public class aves extends AppCompatActivity {
             }
         });
 
+
+        //bronquitis
         ea3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -145,6 +149,7 @@ public class aves extends AppCompatActivity {
             }
         });
 
+        //encefalomielitis
         ea4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -181,6 +186,8 @@ public class aves extends AppCompatActivity {
             }
         });
 
+
+        //influenza
         ea5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -217,6 +224,8 @@ public class aves extends AppCompatActivity {
             }
         });
 
+
+        //bursitis
         ea6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -253,6 +262,8 @@ public class aves extends AppCompatActivity {
             }
         });
 
+
+        //Enfermedad de marek
         ea7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -289,6 +300,7 @@ public class aves extends AppCompatActivity {
             }
         });
 
+        //New castle
         ea8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -325,6 +337,8 @@ public class aves extends AppCompatActivity {
             }
         });
 
+
+        //viruela aviar
         ea9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

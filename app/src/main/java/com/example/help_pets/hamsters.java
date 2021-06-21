@@ -39,6 +39,7 @@ public class hamsters extends AppCompatActivity {
         cuidado = (TextView)findViewById(R.id.Cuidado);
 
 
+        //diabates
         eh1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,6 +76,8 @@ public class hamsters extends AppCompatActivity {
             }
         });
 
+
+        //cola mojada
         eh2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -111,6 +114,8 @@ public class hamsters extends AppCompatActivity {
             }
         });
 
+
+        //acaros
         eh3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -147,6 +152,8 @@ public class hamsters extends AppCompatActivity {
             }
         });
 
+
+        //tiña
         eh4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -183,6 +190,8 @@ public class hamsters extends AppCompatActivity {
             }
         });
 
+
+        //conjuntivitis
         eh5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -219,6 +228,8 @@ public class hamsters extends AppCompatActivity {
             }
         });
 
+
+        //estreñimiento
         eh6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -255,6 +266,8 @@ public class hamsters extends AppCompatActivity {
             }
         });
 
+
+        //calculos en la vejiga
         eh7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -291,6 +304,7 @@ public class hamsters extends AppCompatActivity {
             }
         });
 
+        //cataratas
         eh8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -327,6 +341,8 @@ public class hamsters extends AppCompatActivity {
             }
         });
 
+
+        //abscesos
         eh9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

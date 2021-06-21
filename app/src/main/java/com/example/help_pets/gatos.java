@@ -37,6 +37,7 @@ public class gatos extends AppCompatActivity {
         cuidado = (TextView)findViewById(R.id.Cuidado);
 
 
+        //leucemia
         eg1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,6 +74,8 @@ public class gatos extends AppCompatActivity {
             }
         });
 
+
+        //panleucopenia
         eg2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -109,6 +112,7 @@ public class gatos extends AppCompatActivity {
             }
         });
 
+        //insuficiencia renal
         eg3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -145,6 +149,8 @@ public class gatos extends AppCompatActivity {
             }
         });
 
+
+        //inmunodeficiencia
         eg4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -181,6 +187,8 @@ public class gatos extends AppCompatActivity {
             }
         });
 
+
+        //otitis
         eg5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -217,6 +225,8 @@ public class gatos extends AppCompatActivity {
             }
         });
 
+
+        //conjuntivitis
         eg6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -253,6 +263,8 @@ public class gatos extends AppCompatActivity {
             }
         });
 
+
+        //rabia
         eg7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -289,6 +301,8 @@ public class gatos extends AppCompatActivity {
             }
         });
 
+
+        //peritonitis
         eg8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -325,6 +339,8 @@ public class gatos extends AppCompatActivity {
             }
         });
 
+
+        //cistitis
         eg9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
