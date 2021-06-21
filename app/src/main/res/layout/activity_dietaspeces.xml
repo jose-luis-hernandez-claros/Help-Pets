@@ -61,30 +61,6 @@
                 android:text="@string/dpe3"
                 android:textColor="#6A5454" />
 
-            <Button
-                android:id="@+id/dpe4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/dpe4"
-                android:textColor="#6A5454" />
-
-            <Button
-                android:id="@+id/dpe5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/dpe5"
-                android:textColor="#6A5454" />
-
-            <Button
-                android:id="@+id/dpe6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/dpe6"
-                android:textColor="#6A5454" />
-
 
         </LinearLayout>
     </HorizontalScrollView>

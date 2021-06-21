@@ -23,91 +23,67 @@ public class dietashamnsters extends AppCompatActivity {
         dh3= (Button)findViewById(R.id.dh3);
         dh4= (Button)findViewById(R.id.dh4);
         dh5= (Button)findViewById(R.id.dh5);
-        dh6= (Button)findViewById(R.id.dh6);
-        dh7= (Button)findViewById(R.id.dh7);
-        dh8= (Button)findViewById(R.id.dh8);
+
         imagencambiante = (ImageView)findViewById(R.id.imagencambiante);
         dietasperrostxt = (TextView) findViewById(R.id.dietasperrostxt);
 
+        //zanahorias
         dh1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
+                dietasperrostxt.setText("Zanahoria. La parte más beneficiosa de este alimento es la hoja, por lo que es ideal proporcionar a nuestro hámster las hojas de las zanahorias lavadas y troceadas de vez en cuando. El fruto en sí," +
+                        " solo podremos dárselo sin piel y troceado en cantidades pequeñas para fortalecer sus dientes y mandíbula.");
             }
         });
 
+        //nueces
         dh2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("2Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
+                dietasperrostxt.setText("Evitar la alimentación con demasiadas nueces o semillas a un hámster enano. Las nueces y semillas son alimentos muy grasos y pueden causar una condición conocida como “fuego” en un hámster enano, " +
+                        "que puede resultar en la pérdida de pelo. Una o dos semillas cada dos días es probablemente suficiente si tu hámster es un enano.");
             }
         });
 
+        //cebada
         dh3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("3Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
+                dietasperrostxt.setText("Es rica en fósforo, potasio y ácidos grasos insaturados, es decir, grasas saludables. Es una buena fuente de fibra β-glucan," +
+                        " la cual se asocia con múltiples beneficios a la salud como reducir el riesgo de enfermedades cardiacas.");
             }
         });
 
+        //espinaca
         dh4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("4Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
+                dietasperrostxt.setText("Las espinacas son altamente beneficiosas a la hora de regular el tránsito intestinal. Asimismo, son una gran fuente de fibra y cuenta con propiedades antioxidantes y una ausencia de grasas," +
+                        " imprescindible para mantener la salud de nuestro hámster en perfectas condiciones.");
             }
         });
 
+        //avellanas
         dh5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("5Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
+                dietasperrostxt.setText("Son una buena fuente de minerales como calcio, fósforo y magnesio, indispensables para el crecimiento, así como de manganeso.");
             }
         });
 
-        dh6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("6Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
-            }
-        });
 
-        dh7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("7Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
-            }
-        });
-
-        dh8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("8Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
-            }
-        });
 
 
     }

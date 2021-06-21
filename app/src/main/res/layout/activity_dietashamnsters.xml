@@ -77,30 +77,6 @@
                 android:text="@string/dh5"
                 android:textColor="#6A5454" />
 
-            <Button
-                android:id="@+id/dh6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/dh6"
-                android:textColor="#6A5454" />
-
-            <Button
-                android:id="@+id/dh7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/dh7"
-                android:textColor="#6A5454" />
-
-            <Button
-                android:id="@+id/dh8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/dh8"
-                android:textColor="#6A5454" />
-
 
         </LinearLayout>
     </HorizontalScrollView>

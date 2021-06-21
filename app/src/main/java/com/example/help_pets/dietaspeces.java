@@ -22,71 +22,44 @@ public class dietaspeces extends AppCompatActivity {
         dpe1= (Button)findViewById(R.id.dpe1);
         dpe2= (Button)findViewById(R.id.dpe2);
         dpe3= (Button)findViewById(R.id.dpe3);
-        dpe4= (Button)findViewById(R.id.dpe4);
-        dpe5= (Button)findViewById(R.id.dpe5);
-        dpe6= (Button)findViewById(R.id.dpe6);
         imagencambiante = (ImageView)findViewById(R.id.imagencambiante);
         dietasperrostxt = (TextView) findViewById(R.id.dietasperrostxt);
 
+        //espinaca
         dpe1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
+                dietasperrostxt.setText("Las espinacas es una de las verduras que por todas sus cualidades y aportes que posee podemos añadir perfectamente a las papillas que elaboramos en casa para los peces de nuestros acuarios. Muy bien lavadas, " +
+                        "bien crudas o cocidas, es un buen complemento para la dieta de los peces.");
             }
         });
 
+        //carnes de moluscos
         dpe2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("2Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
+                dietasperrostxt.setText("Un molusco que pueden comer los peces es el mejillón" +
+                        " que cuenta con de fósforo, zinc y manganeso como beneficios, también contiene una buena cantidad de yodo que favorece el metabolismo.");
             }
         });
 
+        //granulos
         dpe3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("3Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
+                dietasperrostxt.setText("Los gránulos y los pellets flotan en el agua y ensucian menos que las escamas. Son los ideales para peces que se alimentan en la zona media del acuario, o los del fondo del acuario, ya que se hunden más rápidamente.\n" +
+                        "Los alimentos en gránulos son los ideales para dispensadores automáticos, ya que se obstruyen menos que las escamas.");
             }
         });
 
-        dpe4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("4Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
-            }
-        });
 
-        dpe5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("5Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
-            }
-        });
-
-        dpe6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                imagencambiante.setImageResource(R.drawable.carnesusar);
-                dietasperrostxt.setText("6Vacuno, Pollo, Cordero, Ciervo o caza, un perro puede con casi todas las carnes de la naturaleza en crudo y " +
-                        "debe constituir la gran parte de su dieta. Recomendable entre un 15 y un 20% de grasa en condiciones normales.");
-            }
-        });
 
 
 

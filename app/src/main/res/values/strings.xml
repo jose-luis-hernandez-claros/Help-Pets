@@ -173,21 +173,15 @@
     <string name="dietapez">DIETAS PARA PECES</string>
     <string name="dpe1">Espinaca</string>
     <string name="dpe2">Carnes de moluscos</string>
-    <string name="dpe3">Gusanos</string>
-    <string name="dpe4">Pescado crudo</string>
-    <string name="dpe5">Lombrices</string>
-    <string name="dpe6">Granulos</string>
+    <string name="dpe3">Granulos</string>
 
     <!--Dieta Hamnster-->
     <string name="dietahamnster">DIETAS PARA HAMNSTERS</string>
     <string name="dh1">Zanahorias</string>
-    <string name="dh2">Trigo</string>
+    <string name="dh2">Nueces</string>
     <string name="dh3">Cebada</string>
-    <string name="dh4">Maiz</string>
-    <string name="dh5">Avena</string>
-    <string name="dh6">Avellanas</string>
-    <string name="dh7">Castañas</string>
-    <string name="dh8">Nueces</string>
+    <string name="dh4">Espinaca</string>
+    <string name="dh5">Avellanas</string>
 
 
 </resources>
