@@ -166,9 +166,8 @@
     <string name="da1">Brocoli</string>
     <string name="da2">Zanahorias</string>
     <string name="da3">Arvejas</string>
-    <string name="da4">Papaya</string>
-    <string name="da5">Mango</string>
-    <string name="da6">Manzana</string>
+    <string name="da4">Manzana</string>
+
 
     <!--Dieta pez-->
     <string name="dietapez">DIETAS PARA PECES</string>

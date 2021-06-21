@@ -69,21 +69,8 @@
                 android:text="@string/da4"
                 android:textColor="#6A5454" />
 
-            <Button
-                android:id="@+id/da5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/da5"
-                android:textColor="#6A5454" />
 
-            <Button
-                android:id="@+id/da6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/da6"
-                android:textColor="#6A5454" />
+
 
 
         </LinearLayout>
@@ -107,7 +94,7 @@
             <TextView
                 android:id="@+id/dietasperrostxt"
                 android:layout_width="match_parent"
-                android:layout_height="197dp"
+                android:layout_height="wrap_content"
                 android:textColor="#6A5454"
                 android:textSize="20sp" />
 
