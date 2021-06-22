@@ -106,7 +106,7 @@ public class gatos extends AppCompatActivity {
                         "\n" +
                         "Es un virus que manifiesta una gran afinidad por infectar células con una elevada capacidad de división, como las del sistema digestivo, la médula ósea o los tejidos linfoides. Esto también incluye a los fetos en gestación y explica los síntomas que provoca. Su nombre, panleucopenia, significa disminución del número de glóbulos blancos. Estos son los encargados de defender al organismo frente a patógenos. Además, los glóbulos rojos también se ven afectados. Su número disminuye y la consecuencia es la anemia.");
 
-                tv2.setText("ne. Podemos observar en nuestro gato una manifestación leve o un cuadro clínico de gravedad. Debemos sospechar de la presencia de esta enfermedad si nuestro gato presenta síntomas como los siguientes:\n" +
+                tv2.setText("Podemos observar en nuestro gato una manifestación leve o un cuadro clínico de gravedad. Debemos sospechar de la presencia de esta enfermedad si nuestro gato presenta síntomas como los siguientes:\n" +
                         "\n" +
                         "Anorexia.\n" +
                         "Apatía.\n" +
