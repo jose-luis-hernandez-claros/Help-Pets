@@ -57,17 +57,29 @@
     <string name="eg8">Peritonitis</string>
     <string name="eg9">Cistitis</string>
 
+<!--    Enfermedades Aves-->
+<!--    <string name="enfaves">Enfermedades De Aves</string>-->
+<!--    <string name="ea1">Colera</string>-->
+<!--    <string name="ea2">Coriza</string>-->
+<!--    <string name="ea3">Bronquitis</string>-->
+<!--    <string name="ea4">Encefalomielitis</string>-->
+<!--    <string name="ea5">Influenza</string>-->
+<!--    <string name="ea6">Bursitis</string>-->
+<!--    <string name="ea7">Enfermedad de marek</string>-->
+<!--    <string name="ea8">New castle</string>-->
+<!--    <string name="ea9">Viruela</string>-->
+
     <!--Enfermedades Aves-->
     <string name="enfaves">Enfermedades De Aves</string>
-    <string name="ea1">Colera</string>
-    <string name="ea2">Coriza</string>
-    <string name="ea3">Bronquitis</string>
-    <string name="ea4">Encefalomielitis</string>
-    <string name="ea5">Influenza</string>
-    <string name="ea6">Bursitis</string>
-    <string name="ea7">Enfermedad de marek</string>
-    <string name="ea8">New castle</string>
-    <string name="ea9">Viruela</string>
+    <string name="ea1">Coccidiosis</string>
+    <string name="ea2">Aspergilosis</string>
+    <string name="ea3">Escherichia Coli</string>
+    <string name="ea4">Salmonelosis</string>
+    <string name="ea5">Colibacilosis</string>
+    <string name="ea6">Estrés</string>
+    <string name="ea7">Anemia</string>
+    <string name="ea8">Quistes foliculares</string>
+    <string name="ea9">Ornitosis</string>
 
     <!--Enfermedades Peces-->
     <string name="enfpeces">Enfermedades De Peces</string>
